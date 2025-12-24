@@ -1,0 +1,769 @@
+<html lang="en">
+  <div id="in-page-channel-node-id" data-channel-name="in_page_channel_r0r_jy"></div>
+
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+    <meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <link rel="preload" as="font" href="/_next/static/media/4abe38faa13fc369-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/66a357067b3e9aef-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/959a90e697c66b5d-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/cce19915342f1d22-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/f233026193f77e91-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="stylesheet" href="/_next/static/css/2e2751e26baf52dd.css" data-precedence="next">
+    <link rel="stylesheet" href="/_next/static/css/c34fb1eb43c5f87f.css" data-precedence="next">
+    <link rel="stylesheet" href="/_next/static/css/ae6213cf3eb7c3e9.css" data-precedence="next">
+    <link rel="stylesheet" href="/_next/static/css/c59f657ab7083b97.css" data-precedence="next">
+    <link rel="preload" href="/_next/static/chunks/webpack-65a9c573a18686de.js" as="script">
+    <link rel="preload" href="/_next/static/chunks/bf6a786c-8c7fb8a478719158.js" as="script">
+    <link rel="preload" href="/_next/static/chunks/114-8555101b760c135e.js" as="script">
+    <link rel="preload" href="/_next/static/chunks/main-app-46e10138c02ff0df.js" as="script">
+    <link rel="preload" as="script" href="https://www.google.com/recaptcha/enterprise.js?">
+   
+    <script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" nomodule=""></script>
+    <style>
+      @keyframes slide-in-one-tap {
+        from {
+          transform: translateY(80px);
+        }
+
+        to {
+          transform: translateY(0px);
+        }
+      }
+
+      .trust-hide-gracefully {
+        opacity: 0;
+      }
+
+      .trust-wallet-one-tap .hidden {
+        display: none;
+      }
+
+      .trust-wallet-one-tap .semibold {
+        font-weight: 500;
+      }
+
+      .trust-wallet-one-tap .binance-plex {
+        font-family: 'Binance';
+      }
+
+      .trust-wallet-one-tap .rounded-full {
+        border-radius: 50%;
+      }
+
+      .trust-wallet-one-tap .flex {
+        display: flex;
+      }
+
+      .trust-wallet-one-tap .flex-col {
+        flex-direction: column;
+      }
+
+      .trust-wallet-one-tap .items-center {
+        align-items: center;
+      }
+
+      .trust-wallet-one-tap .space-between {
+        justify-content: space-between;
+      }
+
+      .trust-wallet-one-tap .justify-center {
+        justify-content: center;
+      }
+
+      .trust-wallet-one-tap .w-full {
+        width: 100%;
+      }
+
+      .trust-wallet-one-tap .box {
+        transition: all 0.5s cubic-bezier(0, 0, 0, 1.43);
+        animation: slide-in-one-tap 0.5s cubic-bezier(0, 0, 0, 1.43);
+        width: 384px;
+        border-radius: 15px;
+        background: #fff;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        z-index: 1020;
+      }
+
+      .trust-wallet-one-tap .header {
+        gap: 15px;
+        border-bottom: 1px solid #e6e6e6;
+        padding: 10px 18px;
+      }
+
+      .trust-wallet-one-tap .header .left-items {
+        gap: 15px;
+      }
+
+      .trust-wallet-one-tap .header .title {
+        color: #1e2329;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+      }
+
+      .trust-wallet-one-tap .header .subtitle {
+        color: #474d57;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .trust-wallet-one-tap .header .close {
+        color: #1e2329;
+        cursor: pointer;
+      }
+
+      .trust-wallet-one-tap .body {
+        padding: 9px 18px;
+        gap: 10px;
+      }
+
+      .trust-wallet-one-tap .body .right-items {
+        gap: 10px;
+        width: 100%;
+      }
+
+      .trust-wallet-one-tap .body .right-items .wallet-title {
+        color: #1e2329;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+      .trust-wallet-one-tap .body .right-items .wallet-subtitle {
+        color: #474d57;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .trust-wallet-one-tap .connect-indicator {
+        gap: 15px;
+        padding: 8px 0;
+      }
+
+      .trust-wallet-one-tap .connect-indicator .flow-icon {
+        color: #474d57;
+      }
+
+      .trust-wallet-one-tap .loading-color {
+        color: #fff;
+      }
+
+      .trust-wallet-one-tap .button {
+        border-radius: 50px;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        background-color: rgb(5, 0, 255);
+        border-color: rgb(229, 231, 235);
+        cursor: pointer;
+        text-align: center;
+        height: 45px;
+      }
+
+      .trust-wallet-one-tap .button .button-text {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+      }
+
+      .trust-wallet-one-tap .footer {
+        margin: 20px 30px;
+      }
+
+      .trust-wallet-one-tap .check-icon {
+        color: #fff;
+      }
+
+      @font-face {
+        font-family: 'Binance';
+        src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Regular.otf) format('opentype');
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Binance';
+        src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-Medium.otf) format('opentype');
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Binance';
+        src: url(chrome-extension://egjidjbpglichdcondbcbdnbeeppgdph/fonts/BinancePlex-SemiBold.otf) format('opentype');
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL2FwcC9zcmMvb25lVGFwL3N0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0lBQ0UsMkJBQTJCO0VBQzdCO0VBQ0E7SUFDRSwwQkFBMEI7RUFDNUI7QUFDRjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFHRTtJQUNFLGFBQWE7RUFDZjs7QUFFQTtJQUNFLGdCQUFnQjtFQUNsQjs7QUFFQTtJQUNFLHNCQUFzQjtFQUN4Qjs7QUFFQTtJQUNFLGtCQUFrQjtFQUNwQjs7QUFFQTtJQUNFLGFBQWE7RUFDZjs7QUFFQTtJQUNFLHNCQUFzQjtFQUN4Qjs7QUFFQTtJQUNFLG1CQUFtQjtFQUNyQjs7QUFFQTtJQUNFLDhCQUE4QjtFQUNoQzs7QUFFQTtJQUNFLHVCQUF1QjtFQUN6Qjs7QUFFQTtJQUNFLFdBQVc7RUFDYjs7QUFFQTtJQUNFLGdEQUFnRDtJQUNoRCw0REFBNEQ7SUFDNUQsWUFBWTtJQUNaLG1CQUFtQjtJQUNuQixnQkFBZ0I7SUFDaEIsK0NBQStDO0lBQy9DLGVBQWU7SUFDZixXQUFXO0lBQ1gsWUFBWTtJQUNaLGFBQWE7RUFDZjs7QUFFQTtJQUNFLFNBQVM7SUFDVCxnQ0FBZ0M7SUFDaEMsa0JBQWtCO0VBdUJwQjs7QUFyQkU7TUFDRSxTQUFTO0lBQ1g7O0FBRUE7TUFDRSxjQUFjO01BQ2QsZUFBZTtNQUNmLGdCQUFnQjtNQUNoQixpQkFBaUI7SUFDbkI7O0FBRUE7TUFDRSxjQUFjO01BQ2QsZUFBZTtNQUNmLGlCQUFpQjtJQUNuQjs7QUFFQTtNQUNFLGNBQWM7TUFDZCxlQUFlO0lBQ2pCOztBQUdGO0lBQ0UsaUJBQWlCO0lBQ2pCLFNBQVM7RUFtQlg7O0FBakJFO01BQ0UsU0FBUztNQUNULFdBQVc7SUFjYjs7QUFaRTtRQUNFLGNBQWM7UUFDZCxlQUFlO1FBQ2YsZ0JBQWdCO1FBQ2hCLGlCQUFpQjtNQUNuQjs7QUFFQTtRQUNFLGNBQWM7UUFDZCxlQUFlO1FBQ2YsaUJBQWlCO01BQ25COztBQUlKO0lBQ0UsU0FBUztJQUNULGNBQWM7RUFLaEI7O0FBSEU7TUFDRSxjQUFjO0lBQ2hCOztBQUdGO0lBQ0UsV0FBVztFQUNiOztBQUVBO0lBQ0UsbUJBQW1CO0lBQ25CLDhCQUE4QjtJQUM5QixtQkFBbUI7SUFDbkIsZ0NBQWdDO0lBQ2hDLGdDQUFnQztJQUNoQyxlQUFlO0lBQ2Ysa0JBQWtCO0lBQ2xCLFlBQVk7RUFRZDs7QUFORTtNQUNFLFdBQVc7TUFDWCxlQUFlO01BQ2YsZ0JBQWdCO01BQ2hCLGlCQUFpQjtJQUNuQjs7QUFHRjtJQUNFLGlCQUFpQjtFQUNuQjs7QUFFQTtJQUNFLFdBQVc7RUFDYjs7QUFHRjtFQUNFLHNCQUFzQjtFQUN0QiwrREFBMEU7RUFDMUUsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHNCQUFzQjtFQUN0QiwrREFBeUU7RUFDekUsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLHNCQUFzQjtFQUN0QiwrREFBMkU7RUFDM0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQiIsInNvdXJjZXNDb250ZW50IjpbIkBrZXlmcmFtZXMgc2xpZGUtaW4tb25lLXRhcCB7XG4gIGZyb20ge1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSg4MHB4KTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDBweCk7XG4gIH1cbn1cblxuLnRydXN0LWhpZGUtZ3JhY2VmdWxseSB7XG4gIG9wYWNpdHk6IDA7XG59XG5cbi50cnVzdC13YWxsZXQtb25lLXRhcCB7XG4gIC5oaWRkZW4ge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cblxuICAuc2VtaWJvbGQge1xuICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gIH1cblxuICAuYmluYW5jZS1wbGV4IHtcbiAgICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICB9XG5cbiAgLnJvdW5kZWQtZnVsbCB7XG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xuICB9XG5cbiAgLmZsZXgge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gIH1cblxuICAuZmxleC1jb2wge1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIH1cblxuICAuaXRlbXMtY2VudGVyIHtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB9XG5cbiAgLnNwYWNlLWJldHdlZW4ge1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgfVxuXG4gIC5qdXN0aWZ5LWNlbnRlciB7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIH1cblxuICAudy1mdWxsIHtcbiAgICB3aWR0aDogMTAwJTtcbiAgfVxuXG4gIC5ib3gge1xuICAgIHRyYW5zaXRpb246IGFsbCAwLjVzIGN1YmljLWJlemllcigwLCAwLCAwLCAxLjQzKTtcbiAgICBhbmltYXRpb246IHNsaWRlLWluLW9uZS10YXAgMC41cyBjdWJpYy1iZXppZXIoMCwgMCwgMCwgMS40Myk7XG4gICAgd2lkdGg6IDM4NHB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDE1cHg7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICBib3gtc2hhZG93OiAwcHggMnB4IDRweCAwcHggcmdiYSgwLCAwLCAwLCAwLjI1KTtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgcmlnaHQ6IDMwcHg7XG4gICAgYm90dG9tOiAzMHB4O1xuICAgIHotaW5kZXg6IDEwMjA7XG4gIH1cblxuICAuaGVhZGVyIHtcbiAgICBnYXA6IDE1cHg7XG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlNmU2ZTY7XG4gICAgcGFkZGluZzogMTBweCAxOHB4O1xuXG4gICAgLmxlZnQtaXRlbXMge1xuICAgICAgZ2FwOiAxNXB4O1xuICAgIH1cblxuICAgIC50aXRsZSB7XG4gICAgICBjb2xvcjogIzFlMjMyOTtcbiAgICAgIGZvbnQtc2l6ZTogMThweDtcbiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICBsaW5lLWhlaWdodDogMjhweDtcbiAgICB9XG5cbiAgICAuc3VidGl0bGUge1xuICAgICAgY29sb3I6ICM0NzRkNTc7XG4gICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICBsaW5lLWhlaWdodDogMjBweDtcbiAgICB9XG5cbiAgICAuY2xvc2Uge1xuICAgICAgY29sb3I6ICMxZTIzMjk7XG4gICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgfVxuICB9XG5cbiAgLmJvZHkge1xuICAgIHBhZGRpbmc6IDlweCAxOHB4O1xuICAgIGdhcDogMTBweDtcblxuICAgIC5yaWdodC1pdGVtcyB7XG4gICAgICBnYXA6IDEwcHg7XG4gICAgICB3aWR0aDogMTAwJTtcblxuICAgICAgLndhbGxldC10aXRsZSB7XG4gICAgICAgIGNvbG9yOiAjMWUyMzI5O1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiAyMHB4O1xuICAgICAgfVxuXG4gICAgICAud2FsbGV0LXN1YnRpdGxlIHtcbiAgICAgICAgY29sb3I6ICM0NzRkNTc7XG4gICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgICB9XG4gICAgfVxuICB9XG5cbiAgLmNvbm5lY3QtaW5kaWNhdG9yIHtcbiAgICBnYXA6IDE1cHg7XG4gICAgcGFkZGluZzogOHB4IDA7XG5cbiAgICAuZmxvdy1pY29uIHtcbiAgICAgIGNvbG9yOiAjNDc0ZDU3O1xuICAgIH1cbiAgfVxuXG4gIC5sb2FkaW5nLWNvbG9yIHtcbiAgICBjb2xvcjogI2ZmZjtcbiAgfVxuXG4gIC5idXR0b24ge1xuICAgIGJvcmRlci1yYWRpdXM6IDUwcHg7XG4gICAgb3V0bGluZTogMnB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgIG91dGxpbmUtb2Zmc2V0OiAycHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDUsIDAsIDI1NSk7XG4gICAgYm9yZGVyLWNvbG9yOiByZ2IoMjI5LCAyMzEsIDIzNSk7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBoZWlnaHQ6IDQ1cHg7XG5cbiAgICAuYnV0dG9uLXRleHQge1xuICAgICAgY29sb3I6ICNmZmY7XG4gICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICBmb250LXdlaWdodDogNjAwO1xuICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgfVxuICB9XG5cbiAgLmZvb3RlciB7XG4gICAgbWFyZ2luOiAyMHB4IDMwcHg7XG4gIH1cblxuICAuY2hlY2staWNvbiB7XG4gICAgY29sb3I6ICNmZmY7XG4gIH1cbn1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnQmluYW5jZSc7XG4gIHNyYzogdXJsKCcuL2ZvbnRzL2JpbmFuY2VQbGV4L0JpbmFuY2VQbGV4LVJlZ3VsYXIub3RmJykgZm9ybWF0KCdvcGVudHlwZScpO1xuICBmb250LXdlaWdodDogNDAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICBzcmM6IHVybCgnLi9mb250cy9iaW5hbmNlUGxleC9CaW5hbmNlUGxleC1NZWRpdW0ub3RmJykgZm9ybWF0KCdvcGVudHlwZScpO1xuICBmb250LXdlaWdodDogNTAwO1xuICBmb250LXN0eWxlOiBub3JtYWw7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0JpbmFuY2UnO1xuICBzcmM6IHVybCgnLi9mb250cy9iaW5hbmNlUGxleC9CaW5hbmNlUGxleC1TZW1pQm9sZC5vdGYnKSBmb3JtYXQoJ29wZW50eXBlJyk7XG4gIGZvbnQtd2VpZ2h0OiA2MDA7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */
+    </style>
+  
+    <script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js" type="text/javascript" async="" defer=""></script>
+    <link rel="preload" as="style" href="/_next/static/css/c59f657ab7083b97.css">
+    <meta charset="utf-8">
+    <title>Our Process - Codefort</title>
+    <meta name="description" content="We transform businesses with technology.">
+    <meta name="keywords" content="software development,local,cheap,cost effective,startup,tech hiring,tech recruitment">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Transform your business ideas with Codefort solutions">
+    <meta property="og:description" content="Harness the power of scalable software solutions to elevate your business’s performance and profitability.">
+    <meta property="og:url" content="https://codeforttech.com.ng/">
+    <meta property="og:image" content="https://codeforttech.com.ng/images/how-it-works-1.webp">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@codefort">
+    <meta name="twitter:title" content="Transform your business ideas with Codefort solutions">
+    <meta name="twitter:description" content="Harness the power of scalable software solutions to elevate your business’s performance and profitability.">
+    <meta name="twitter:image" content="https://codeforttech.com.ng/images/how-it-works-1.webp">
+    <link rel="icon" href="/icon.ico?4ae34dfc97de72ce" type="image/x-icon" sizes="any">
+    <meta name="next-size-adjust">
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69369c15c68/js/twk-chunk-2d21ad1b.js"></script>
+    <script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69369c15c68/js/twk-chunk-2d0e5f34.js"></script>
+  </head>
+
+  <body class="__className_ff2d15">
+    <main>
+      <div class="Hero_container__Ie7sQ">
+        <div id="tsparticles"></div>
+        <div class="Header_headerWrapper__0NhQv">
+          <header class="Header_header__z1DZP false"><a href="/"><img alt="logo" loading="lazy" width="178.61" height="40" decoding="async" data-nimg="1" class="Header_logoFull__32g1a" srcset="/_next/logo-full.webp, /_next/logo-full.webp 2x" src="/_next/logo-full.webp" style="color: transparent;"><img alt="logo" loading="lazy" width="142.89" height="32" decoding="async" data-nimg="1" class="Header_logo__nMWzR" srcset="/_next/logo-full.webp, /_next/logo-full.webp 2x" src="/_next/logo-full.webp" style="color: transparent;"></a>
+            <nav class="Header_links__7__VU">
+              <div class="Header_servicesNavWrapperOuter__eBYPR">
+                <div class="Header_servicesNavWrapper__Fm7SW">
+                  <h3 class="Header_servicesNavHeader__K2Q4v">Services we offer<span class="Header_servicesNavHeader__K2Q4v Header_dot__5qYda">.</span></h3>
+                  <div class="Header_servicesNav__vVlPe"><a class="Header_servicesLink__fHPea" href="/software-development">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/service-1-icon.webp, /_next/service-1-icon.webp" src="/_next/service-1-icon.webp" style="color: transparent;">
+                        <p class="Header_serviceLinkText__EZRlM">Custom Software Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" srcset="/_next/learn-more.webp, /_next/learn-more.webp" src="/_next/learn-more.webp" style="color: transparent;">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/blockchain">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/service-3-icon.webp, /_next/service-3-icon.webp" src="/_next/service-3-icon.webp" style="color: transparent;">
+                        <p class="Header_serviceLinkText__EZRlM">Blockchain Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" srcset="/_next/learn-more.webp, /_next/learn-more.webp" src="/_next/learn-more.webp" style="color: transparent;">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/product-design">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/service-2-icon.webp, /_next/service-2-icon.webp" src="/_next/service-2-icon.webp" style="color: transparent;">
+                        <p class="Header_serviceLinkText__EZRlM">User Research &amp; Product Design</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" srcset="/_next/learn-more.webp, /_next/learn-more.webp" src="/_next/learn-more.webp" style="color: transparent;">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/ai-and-ml">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/service-4-icon.webp, /_next/service-4-icon.webp" src="/_next/service-4-icon.webp" style="color: transparent;">
+                        <p class="Header_serviceLinkText__EZRlM">AI &amp; ML Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" srcset="/_next/learn-more.webp, /_next/learn-more.webp" src="/_next/learn-more.webp" style="color: transparent;">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/outsourcing">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/service-5-icon.webp, /_next/service-5-icon.webp" src="/_next/service-5-icon.webp" style="color: transparent;">
+                        <p class="Header_serviceLinkText__EZRlM">Outsourcing &amp; Recruitment Services</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" srcset="/_next/learn-more.webp, /_next/learn-more.webp" src="/_next/learn-more.webp" style="color: transparent;">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/maintenance">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/service-6-icon.webp, /_next/service-6-icon.webp" src="/_next/service-6-icon.webp" style="color: transparent;">
+                        <p class="Header_serviceLinkText__EZRlM">Software Maintenance &amp; Support</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" srcset="/_next/learn-more.webp, /_next/learn-more.webp" src="/_next/learn-more.webp" style="color: transparent;">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/startup-solutions">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" srcset="/_next/service-7-icon.webp, /_next/service-7-icon.webp" src="/_next/service-7-icon.webp" style="color: transparent;">
+                        <p class="Header_serviceLinkText__EZRlM">Startup &amp; Small Business Solutions</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" srcset="/_next/learn-more.webp, /_next/learn-more.webp" src="/_next/learn-more.webp" style="color: transparent;">
+                      </div>
+                    </a></div>
+                </div>
+              </div><a class="Header_link__OJ7mG " href="/">Home</a><a class="Header_link__OJ7mG Header_linkActive__1Wk7s" href="/about-us">About us</a><a class="Header_link__OJ7mG " href="/our-process">Our process</a><a class="Header_link__OJ7mG " href="/pay-as-you-build">Pay As you build<span class="Header_newTag__5CHHH">NEW</span></a>
+              <p class="Header_link__OJ7mG Header_linkMulti__uOmVn">Services</p>
+            </nav><a class="Header_headerButton__YuNwT Header_headerButtonInvert__dTsph" href="/#contact">Contact us</a><img alt="menu icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="Header_menuOpen__u0_H5" src="/images/menu.svg" style="color: transparent;">
+          </header>
+          <nav class="Header_mobileNav__nlBu7 ">
+            <div class="Header_mobileTop__Gvy_h"><a href="/"><img alt="logo" loading="lazy" width="142.89" height="32" decoding="async" data-nimg="1" class="Header_logo__nMWzR" srcset="/_next/logo-full.webp, /_next/logo-full.webp 2x" src="/_next/logo-full.webp" style="color: transparent;"></a><img alt="menu icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" src="/images/close.svg" style="color: transparent;"></div>
+            <div class="Header_navMobileWrapper__BWmve"><a class="Header_linkMobile__sGuGe" href="/"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                <p class="Header_linkMobileText__6k8yi">Home</p>
+              </a><a class="Header_linkMobile__sGuGe" href="/about-us"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                <p class="Header_linkMobileText__6k8yi">About us</p>
+              </a><a class="Header_linkMobile__sGuGe" href="/our-process"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                <p class="Header_linkMobileText__6k8yi">Our process</p>
+              </a><a class="Header_linkMobile__sGuGe" href="/pay-as-you-build"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                <p class="Header_linkMobileText__6k8yi">Pay As you build</p><span class="Header_newTagMobile__nrz9E">NEW</span>
+              </a>
+              <div>
+                <h2 class="Header_mobileServiceHeader__4Rg21">Services</h2>
+                <div class="Header_innerNavs__R3eNy"><a class="Header_linkMobile__sGuGe" href="/software-development"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                    <p class="Header_linkMobileText__6k8yi">Custom Software Development</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/blockchain"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                    <p class="Header_linkMobileText__6k8yi">Blockchain Development</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/product-design"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                    <p class="Header_linkMobileText__6k8yi">User Research &amp; Product Design</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/ai-and-ml"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                    <p class="Header_linkMobileText__6k8yi">AI &amp; ML Development</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/outsourcing"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                    <p class="Header_linkMobileText__6k8yi">Outsourcing &amp; Recruitment Services</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/maintenance"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                    <p class="Header_linkMobileText__6k8yi">Software Maintenance &amp; Support</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/startup-solutions"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" srcset="/_next/right.webp, /_next/right.webp" src="/_next/right.webp" style="color: transparent;">
+                    <p class="Header_linkMobileText__6k8yi">Startup &amp; Small Business Solutions</p>
+                  </a></div>
+              </div>
+            </div><a class="Header_headerButtonMobile__EXRpk" href="/#contact">Contact us</a>
+          </nav>
+        </div>
+        <section class="Hero_heroWrapper__HHgQu">
+          <div class="Hero_heroContent__Ck9wY">
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 1; transform: none;">
+                <h3 class="Hero_textCenter__uoexa" style="max-width: 935px;"><span class="Hero_heroTitle__IbUgH false"><span>We transform businesses with technology</span><span class="typed-cursor typed-cursor--blink">.</span></span></h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="Hero_heroImageWrapper__LhUtw Hero_invisble__MVkq7"><img alt="hero image" loading="lazy" decoding="async" data-nimg="fill" class="Hero_heroImage__AJe10" sizes="100vw" srcset="/_next/hero-image.webp, /_next/hero-image.webp, /_next/hero-image.webp, /_next/hero-image.webp, /_next/hero-image.webp, /_next/hero-image.webp, /_next/hero-image.webp, /_next/hero-image.webp" src="/_next/hero-image.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+      </div>
+      <div class="page_videoWrapper__AJS3m">
+        <section class="Video_video__5U2L1">
+          <div class="Video_videoContainer__DZ4r4"><iframe src="https://drive.google.com/file/d/1v02oIh5kjWqtMMcJ8o2anpsrDN5VW0QC/preview" class="Video_videoIframe__1U8Mm" allow="autoplay" allowfullscreen=""></iframe></div>
+        </section>
+      </div>
+      <section class="Companies_wrapper__bUnuf">
+        <div style="position: relative; width: 100%; overflow: hidden;">
+          <div style="height: 100%; opacity: 1; transform: none;">
+            <h3 class="Companies_header__I1XDj">We have the privilege of working with ambitious companies to create world-class solutions.</h3>
+          </div>
+          <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+        </div>
+        <div class="Companies_imagesWrapper__OtbwN">
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-1.webp, /_next/company-1.webp, /_next/company-1.webp, /_next/company-1.webp, /_next/company-1.webp, /_next/company-1.webp, /_next/company-1.webp, /_next/company-1.webp" src="/_next/company-1.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-2.webp, /_next/company-2.webp, /_next/company-2.webp, /_next/company-2.webp, /_next/company-2.webp, /_next/company-2.webp, /_next/company-2.webp, /_next/company-2.webp" src="/_next/company-2.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-3.webp, /_next/company-3.webp, /_next/company-3.webp, /_next/company-3.webp, /_next/company-3.webp, /_next/company-3.webp, /_next/company-3.webp, /_next/company-3.webp" src="/_next/company-3.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-4.webp, /_next/company-4.webp, /_next/company-4.webp, /_next/company-4.webp, /_next/company-4.webp, /_next/company-4.webp, /_next/company-4.webp, /_next/company-4.webp" src="/_next/company-4.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-5.webp, /_next/company-5.webp, /_next/company-5.webp, /_next/company-5.webp, /_next/company-5.webp, /_next/company-5.webp, /_next/company-5.webp, /_next/company-5.webp" src="/_next/company-5.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-6.webp, /_next/company-6.webp, /_next/company-6.webp, /_next/company-6.webp, /_next/company-6.webp, /_next/company-6.webp, /_next/company-6.webp, /_next/company-6.webp" src="/_next/company-6.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-7.webp, /_next/company-7.webp, /_next/company-7.webp, /_next/company-7.webp, /_next/company-7.webp, /_next/company-7.webp, /_next/company-7.webp, /_next/company-7.webp" src="/_next/company-7.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 1; transform: none;">
+              <div class="Companies_imageWrapperOuter__1jeFH">
+                <div class="Companies_imageWrapper__OJY1z"><img alt="company image" loading="lazy" decoding="async" data-nimg="fill" class="Companies_image__1E2RC" sizes="100vw" srcset="/_next/company-8.webp, /_next/company-8.webp, /_next/company-8.webp, /_next/company-8.webp, /_next/company-8.webp, /_next/company-8.webp, /_next/company-8.webp, /_next/company-8.webp" src="/_next/company-8.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+              </div>
+            </div>
+            <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+        </div>
+        <div class="Companies_achievements__xb2QA">
+          <div class="Companies_achievement__tt9Jp ">
+            <div class="Companies_achievementTitleWrapper__MxR3l">
+              <p class="Companies_achievementTitle__hH6v8">14+</p>
+              <p class="Companies_achievementText__NrH_N">years in business</p>
+            </div><img alt="achievement image" loading="lazy" width="96" height="96" decoding="async" data-nimg="1" class="Companies_achievementIcon__nFPj7" srcset="/_next/calendar.webp, /_next/calendar.webp" src="/_next/calendar.webp" style="color: transparent;"><img alt="achievement image" loading="lazy" width="72" height="72" decoding="async" data-nimg="1" class="Companies_achievementIconMobile__sXRf_" srcset="/_next/calendar.webp, /_next/calendar.webp" src="/_next/calendar.webp" style="color: transparent;"><img alt="achievement image" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" class="Companies_achievementIconMobile2__sDkte" srcset="/_next/calendar.webp 1x, /_next/calendar.webp" src="/_next/calendar.webp" style="color: transparent;">
+          </div>
+          <div class="Companies_achievement__tt9Jp Companies_borderBlock__3m91G">
+            <div class="Companies_achievementTitleWrapper__MxR3l">
+              <p class="Companies_achievementTitle__hH6v8">100+</p>
+              <p class="Companies_achievementText__NrH_N">solutions delivered</p>
+            </div><img alt="achievement image" loading="lazy" width="96" height="96" decoding="async" data-nimg="1" class="Companies_achievementIcon__nFPj7" srcset="/_next/ranking.webp, /_next/ranking.webp" src="/_next/ranking.webp" style="color: transparent;"><img alt="achievement image" loading="lazy" width="72" height="72" decoding="async" data-nimg="1" class="Companies_achievementIconMobile__sXRf_" srcset="/_next/ranking.webp, /_next/ranking.webp" src="/_next/ranking.webp" style="color: transparent;"><img alt="achievement image" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" class="Companies_achievementIconMobile2__sDkte" srcset="/_next/ranking.webp 1x, /_next/ranking.webp" src="/_next/ranking.webp" style="color: transparent;">
+          </div>
+          <div class="Companies_achievement__tt9Jp ">
+            <div class="Companies_achievementTitleWrapper__MxR3l">
+              <p class="Companies_achievementTitle__hH6v8">$4M+</p>
+              <p class="Companies_achievementText__NrH_N">business delivered</p>
+            </div><img alt="achievement image" loading="lazy" width="96" height="96" decoding="async" data-nimg="1" class="Companies_achievementIcon__nFPj7" srcset="/_next/coin.webp, /_next/coin.webp" src="/_next/coin.webp" style="color: transparent;"><img alt="achievement image" loading="lazy" width="72" height="72" decoding="async" data-nimg="1" class="Companies_achievementIconMobile__sXRf_" srcset="/_next/coin.webp, /_next/coin.webp" src="/_next/coin.webp" style="color: transparent;"><img alt="achievement image" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" class="Companies_achievementIconMobile2__sDkte" srcset="/_next/coin.webp 1x, /_next/coin.webp" src="/_next/coin.webp" style="color: transparent;">
+          </div>
+        </div>
+      </section>
+      <section class="Attributes_wrapper__v6LOL">
+        <div class="Attribute_wrapper__7Q2Fd ">
+          <div class="Attribute_imageWrapper__HhgGf"><img alt="attribute image" loading="lazy" decoding="async" data-nimg="fill" class="Attribute_image__N9_48" sizes="100vw" srcset="/_next/attribute-1.webp, /_next/attribute-1.webp, /_next/attribute-1.webp, /_next/attribute-1.webp, /_next/attribute-1.webp, /_next/attribute-1.webp, /_next/attribute-1.webp, /_next/attribute-1.webp" src="/_next/attribute-1.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+          <div class="Attribute_texts__lGlPa">
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <h3 class="Attribute_title__6yrz_">Customer-centric: <span class="Attribute_titleInner__Sf2RL">Your Success, Our Mission</span><span class="Attribute_title__6yrz_ Attribute_dot___wadH">.</span></h3>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <p class="Attribute_text__iBKtd">We immerse ourselves in your vision, tailoring our solutions to meet your specific requirements.</p>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <p class="Attribute_text__iBKtd">Our relentless dedication to delivering high-quality software is what sets us apart.</p>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+          </div>
+        </div>
+        <div class="Attribute_wrapper__7Q2Fd Attribute_reverse__yH3Qo">
+          <div class="Attribute_imageWrapper__HhgGf"><img alt="attribute image" loading="lazy" decoding="async" data-nimg="fill" class="Attribute_image__N9_48" sizes="100vw" srcset="/_next/attribute-2.webp, /_next/attribute-2.webp, /_next/attribute-2.webp, /_next/attribute-2.webp, /_next/attribute-2.webp, /_next/attribute-2.webp, /_next/attribute-2.webp, /_next/attribute-2.webp" src="/_next/attribute-2.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+          <div class="Attribute_texts__lGlPa">
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <h3 class="Attribute_title__6yrz_">Integrity: <span class="Attribute_titleInner__Sf2RL">Building Trust, Inspiring Confidence</span><span class="Attribute_title__6yrz_ Attribute_dot___wadH">.</span></h3>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <p class="Attribute_text__iBKtd">Integrity is the bedrock of our company. We uphold the highest ethical standards, ensuring transparency and honesty in all our interactions.</p>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <p class="Attribute_text__iBKtd">You can trust us to prioritize your interests and deliver on our promises with unwavering dedication.</p>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+          </div>
+        </div>
+        <div class="Attribute_wrapper__7Q2Fd ">
+          <div class="Attribute_imageWrapper__HhgGf"><img alt="attribute image" loading="lazy" decoding="async" data-nimg="fill" class="Attribute_image__N9_48" sizes="100vw" srcset="/_next/attribute-3.webp, /_next/attribute-3.webp, /_next/attribute-3.webp, /_next/attribute-3.webp, /_next/attribute-3.webp, /_next/attribute-3.webp, /_next/attribute-3.webp, /_next/attribute-3.webp" src="/_next/attribute-3.webp" style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"></div>
+          <div class="Attribute_texts__lGlPa">
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <h3 class="Attribute_title__6yrz_">Excellence: <span class="Attribute_titleInner__Sf2RL">Pursuing Perfection</span><span class="Attribute_title__6yrz_ Attribute_dot___wadH">.</span></h3>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <p class="Attribute_text__iBKtd">Excellence is not just an aspiration; it is our commitment to achieving the highest standards. From project initiation to completion, we strive for perfection in every detail of our work.</p>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+            <div style="position: relative; width: fit-content; overflow: hidden;">
+              <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+                <p class="Attribute_text__iBKtd">Our pursuit of excellence drives us to continuously deliver tailor-made solutions to your unique requirements.</p>
+              </div>
+              <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="Industries_industries__HYBHz">
+        <div class="Industries_industriesHeader__VR0cy">
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <h3 class="Industries_sectionTitleDark__KiY_l">Key industries<span class="Industries_sectionTitleDark__KiY_l Industries_dot__OZdDB">.</span></h3>
+            </div>
+            <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+          <div style="position: relative; width: fit-content; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <p class="Industries_sectionBodyDark__fXO6O">Domains we have mastered and conquered</p>
+            </div>
+            <div style="position: absolute; inset: 0px 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+          </div>
+        </div>
+        <div class="Industries_industriesWrapper__DdnYt">
+          <div style="position: relative; width: 100%; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <div class="Industries_industry__iDBFY Industries_fintech__QaM_E">
+                <h3 class="Industries_industryNameAlone__qM67Q">Fintech</h3>
+                <div class="Industries_industryOverlay__yK1FB"></div>
+                <div class="Industries_industryDetails__tLD4v">
+                  <h3 class="Industries_industryName__ifcur">Fintech</h3>
+                  <p class="Industries_industryDescription___X44L">We provide solutions for secure payment gateways, robust banking systems, and personalized financial management tools. With Codefort, you can streamline your operations, optimize transactions, and deliver seamless customer experiences.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="position: relative; width: 100%; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <div class="Industries_industry__iDBFY Industries_e-commerce__G401f">
+                <h3 class="Industries_industryNameAlone__qM67Q">E-commerce</h3>
+                <div class="Industries_industryOverlay__yK1FB"></div>
+                <div class="Industries_industryDetails__tLD4v">
+                  <h3 class="Industries_industryName__ifcur">E-commerce</h3>
+                  <p class="Industries_industryDescription___X44L">Our e-commerce solutions allow businesses to create captivating online storefronts, implement secure payment gateways, and leverage data-driven insights for growth.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="position: relative; width: 100%; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <div class="Industries_industry__iDBFY Industries_oil-and-gas__7kQzx">
+                <h3 class="Industries_industryNameAlone__qM67Q">Oil &amp; Gas</h3>
+                <div class="Industries_industryOverlay__yK1FB"></div>
+                <div class="Industries_industryDetails__tLD4v">
+                  <h3 class="Industries_industryName__ifcur">Oil &amp; Gas</h3>
+                  <p class="Industries_industryDescription___X44L"> Our solutions encompass advanced asset management systems, IoT integration, and predictive analytics. Build a solid foundation for optimized operations, risk mitigation, and sustainable growth with our comprehensive software services.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="position: relative; width: 100%; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <div class="Industries_industry__iDBFY Industries_travel-and-recreation__9Heu0">
+                <h3 class="Industries_industryNameAlone__qM67Q">Travel &amp; Recreation</h3>
+                <div class="Industries_industryOverlay__yK1FB"></div>
+                <div class="Industries_industryDetails__tLD4v">
+                  <h3 class="Industries_industryName__ifcur">Travel &amp; Recreation</h3>
+                  <p class="Industries_industryDescription___X44L">With Codefort's innovative solutions, your organization can build captivating online booking platforms, efficient travel management systems, and personalized itineraries.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="position: relative; width: 100%; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <div class="Industries_industry__iDBFY Industries_insurance__9J8wQ">
+                <h3 class="Industries_industryNameAlone__qM67Q">Insurance</h3>
+                <div class="Industries_industryOverlay__yK1FB"></div>
+                <div class="Industries_industryDetails__tLD4v">
+                  <h3 class="Industries_industryName__ifcur">Insurance</h3>
+                  <p class="Industries_industryDescription___X44L">Our innovative solutions help our clients to embrace digital transformation, navigate regulatory challenges, and gain a competitive edge in the industry. With Codefort, you can build and secure a prosperous future for your insurance business.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="position: relative; width: 100%; overflow: hidden;">
+            <div style="height: 100%; opacity: 0; transform: translateY(75px) translateZ(0px);">
+              <div class="Industries_industry__iDBFY Industries_logistics__g4SGv">
+                <h3 class="Industries_industryNameAlone__qM67Q">Logistics</h3>
+                <div class="Industries_industryOverlay__yK1FB"></div>
+                <div class="Industries_industryDetails__tLD4v">
+                  <h3 class="Industries_industryName__ifcur">Logistics</h3>
+                  <p class="Industries_industryDescription___X44L">Our logistics solutions encompass end-to-end supply chain management, real-time tracking, warehouse management systems, and process automation. Build a strong logistics ecosystem and elevate your operations to new heights with our custom solutions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="Footer_footer__yUjxG">
+   <div class="Footer_copyrightWrapper__9VI0F">
+      <div style="position:relative;width:fit-content;overflow:hidden">
+         <div style="height: 100%; opacity: 1; transform: none;"><a href="/"><img alt="logo" loading="lazy" width="67" height="64" decoding="async" data-nimg="1" class="Footer_footerLogo__OItv_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flogo.png&amp;w=96&amp;q=75 1x, /_next/logo.png 2x" src="/_next/logo.png"></a></div>
+      </div>
+      <div style="position:relative;width:fit-content;overflow:hidden">
+         <div style="height: 100%; opacity: 1; transform: none;"><a href="/"><img alt="logo" loading="lazy" width="44.667" height="42.667" decoding="async" data-nimg="1" class="Footer_footerLogoMobile__JQMV0" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flogo.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=96&amp;q=75 2x" src="/_next/logo.png"></a></div>
+      </div>
+      <div style="position:relative;width:fit-content;overflow:hidden">
+         <div style="height: 100%; opacity: 1; transform: none;">
+            <p class="Footer_copyright__m8i3P">© 2023 CodeFort, All rights reserved</p>
+         </div>
+      </div>
+   </div>
+   <div class="Footer_footerNavsWrapper__2QYA9">
+      <div class="Footer_footerNavsWrapperInner__rU8OM">
+         <div style="position:relative;width:fit-content;overflow:hidden">
+            <div style="height: 100%; opacity: 1; transform: none;">
+               <h3 class="Footer_footerHeader__VAK2E">Company</h3>
+            </div>
+         </div>
+         <div class="Footer_footerNavs__uGTx7">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/about-us">About us</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/our-process">Our process</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/terms-of-service#privacy-policy">Privacy Policy</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/terms-of-service">Terms of service</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="Footer_footerNavsWrapperInner__rU8OM">
+         <div style="position:relative;width:fit-content;overflow:hidden">
+            <div style="height: 100%; opacity: 1; transform: none;">
+               <h3 class="Footer_footerHeader__VAK2E">Services</h3>
+            </div>
+         </div>
+         <div class="Footer_footerNavs__uGTx7">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/software-development">Custom Software Development</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/blockchain">Blockchain Development</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/product-design">Product Design</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/ai-and-ml">AI and ML Development</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/outsourcing">Outsourcing &amp; Recruitment</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/maintenance">Software Maintenance</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/startup-solutions">Startup Solutions</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="Footer_footerNavsWrapperInner__rU8OM">
+         <div style="position:relative;width:fit-content;overflow:hidden">
+            <div style="height: 100%; opacity: 1; transform: none;">
+               <h3 class="Footer_footerHeader__VAK2E">Contact info</h3>
+            </div>
+         </div>
+         <div class="Footer_footerNavs__uGTx7">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;">
+                  <p class="Footer_footerLink__iFDe2">CodeFortTech HQ, Adebola House (Suite 100, Rear Wing), 40 Opebi Road, Ikeja-Lagos.</p>
+               </div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;">
+                  <p class="Footer_footerLink__iFDe2">info@cordforttech.com.ng</p>
+               </div>
+            </div>
+         </div>
+         <div class="Footer_socialIconsMobile__8Wjb4">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)"><a href="https://twitter.com/stackbuld/" target="_blank"><img alt="social icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/twitter.svg"></a></div>
+            </div>
+            <a href="https://linkedin.com/in/stackbuld-limited-340848259" target="_blank">
+               <div style="position:relative;width:fit-content;overflow:hidden">
+                  <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)"><img alt="social icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/linkedin.svg"></div>
+               </div>
+            </a>
+         </div>
+         <div class="Footer_socialIcons__fF_Oa">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a href="https://twitter.com/stackbuld/" target="_blank"><img alt="social icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/twitter.svg"></a></div>
+            </div>
+            <a href="https://linkedin.com/in/stackbuld-limited-340848259" target="_blank">
+               <div style="position:relative;width:fit-content;overflow:hidden">
+                  <div style="height: 100%; opacity: 1; transform: none;"><img alt="social icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/linkedin.svg"></div>
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+</footer>
+    <script src="/_next/static/chunks/webpack-65a9c573a18686de.js" async=""></script>
+    <script src="/_next/static/chunks/bf6a786c-8c7fb8a478719158.js" async=""></script>
+    <script src="/_next/static/chunks/114-8555101b760c135e.js" async=""></script>
+    <!--<script src="/_next/static/chunks/main-app-46e10138c02ff0df.js" async=""></script>
+    <script>
+      (self.__next_f = self.__next_f || []).push([0])
+    </script>-->
+    <script>
+      self.__next_f.push([1, "1:HL[\"/_next/static/media/4abe38faa13fc369-s.p.woff2\",{\"as\":\"font\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/media/66a357067b3e9aef-s.p.woff2\",{\"as\":\"font\",\"type\":\"font/woff2\"}]\n3:HL[\"/_next/static/media/959a90e697c66b5d-s.p.woff2\",{\"as\":\"font\",\"type\":\"font/woff2\"}]\n4:HL[\"/_next/static/media/cce19915342f1d22-s.p.woff2\",{\"as\":\"font\",\"type\":\"font/woff2\"}]\n5:HL[\"/_next/static/media/f233026193f77e91-s.p.woff2\",{\"as\":\"font\",\"type\":\"font/woff2\"}]\n6:HL[\"/_next/static/css/2e2751e26baf52dd.css\",{\"as\":\"style\"}]\n7:HL["])
+    </script>
+    <script>
+      self.__next_f.push([1, "\"/_next/static/css/c34fb1eb43c5f87f.css\",{\"as\":\"style\"}]\n8:HL[\"/_next/static/css/ae6213cf3eb7c3e9.css\",{\"as\":\"style\"}]\n0:\"$L9\"\n"])
+    </script>
+    <script>
+      self.__next_f.push([1, "a:I{\"id\":7948,\"chunks\":[\"272:static/chunks/webpack-65a9c573a18686de.js\",\"121:static/chunks/bf6a786c-8c7fb8a478719158.js\",\"114:static/chunks/114-8555101b760c135e.js\"],\"name\":\"default\",\"async\":false}\nc:I{\"id\":6628,\"chunks\":[\"272:static/chunks/webpack-65a9c573a18686de.js\",\"121:static/chunks/bf6a786c-8c7fb8a478719158.js\",\"114:static/chunks/114-8555101b760c135e.js\"],\"name\":\"GlobalError\",\"async\":false}\nd:I{\"id\":1120,\"chunks\":[\"846:static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\","])
+    </script>
+    <script>
+      self.__next_f.push([1, "\"185:static/chunks/app/layout-8c41899ecab560c3.js\"],\"name\":\"Providers\",\"async\":false}\ne:I{\"id\":7767,\"chunks\":[\"272:static/chunks/webpack-65a9c573a18686de.js\",\"121:static/chunks/bf6a786c-8c7fb8a478719158.js\",\"114:static/chunks/114-8555101b760c135e.js\"],\"name\":\"default\",\"async\":false}\nf:I{\"id\":7920,\"chunks\":[\"272:static/chunks/webpack-65a9c573a18686de.js\",\"121:static/chunks/bf6a786c-8c7fb8a478719158.js\",\"114:static/chunks/114-8555101b760c135e.js\"],\"name\":\"default\",\"async\":false}\n10:I{\"id\":8685,\"chunks\":[\"846:"])
+    </script>
+    <script>
+      self.__next_f.push([1, "static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"613:static/chunks/app/our-process/page-da6c06688addcf2c.js\"],\"name\":\"\",\"async\":false}\n11:I{\"id\":1180,\"chunks\":[\"846:static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"613:static/chunks/app/our-process/page-da6c06688addcf2c.js\"],\"name\":\"\",\"async\":false}\n12:I{\"id\":1468,\"chunks\":[\"846:static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"613:static/chunks/app/our-pr"])
+    </script>
+    <script>
+      self.__next_f.push([1, "ocess/page-da6c06688addcf2c.js\"],\"name\":\"\",\"async\":false}\n13:I{\"id\":8616,\"chunks\":[\"846:static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"613:static/chunks/app/our-process/page-da6c06688addcf2c.js\"],\"name\":\"\",\"async\":false}\n14:I{\"id\":3771,\"chunks\":[\"846:static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"613:static/chunks/app/our-process/page-da6c06688addcf2c.js\"],\"name\":\"\",\"async\":false}\n15:I{\"id\":6685,\"chunks\":[\"846:static/chunks/846-7ec5af"])
+    </script>
+    <script>
+      self.__next_f.push([1, "1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"613:static/chunks/app/our-process/page-da6c06688addcf2c.js\"],\"name\":\"\",\"async\":false}\n16:I{\"id\":3222,\"chunks\":[\"846:static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"613:static/chunks/app/our-process/page-da6c06688addcf2c.js\"],\"name\":\"Image\",\"async\":false}\n17:I{\"id\":6569,\"chunks\":[\"846:static/chunks/846-7ec5af1f342a90e5.js\",\"803:static/chunks/803-a58b86157b680d75.js\",\"185:static/chunks/app/layout-8c41899ecab560c3.j"])
+    </script>
+    <script>
+      self.__next_f.push([1, "s\"],\"name\":\"\",\"async\":false}\n"])
+    </script>
+    <script>
+      self.__next_f.push([1, "9:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/2e2751e26baf52dd.css\",\"precedence\":\"next\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/c34fb1eb43c5f87f.css\",\"precedence\":\"next\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ae6213cf3eb7c3e9.css\",\"precedence\":\"next\"}]],[\"$\",\"$La\",null,{\"buildId\":\"YYGHXa0i1kjJVHdZyqTYR\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/our-process\",\"initialTree\":[\"\",{\"children\":[\"our-process\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],\"initialHead\":\"$Lb\",\"globalErrorComponent\":\"$c\",\"children\":[[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__className_ff2d15\",\"children\":[[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"$Le\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lf\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$Le\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"our-process\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lf\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[[\"$\",\"main\",null,{\"children\":[[\"$\",\"$L10\",null,{\"heroImage\":\"/images/process-background.webp\",\"title\":\"Transforming Ideas into Digital Reality\",\"type\":\"process\",\"titleStyles\":{\"maxWidth\":\"920px\"},\"imageStyles\":{\"paddingTop\":\"8.3333vw\"},\"content\":\"We harness the boundless power of technology and innovation and elevate your business performance. Your Vision brought to life by Our Expertise.\",\"contactRoute\":\"#contact\"}],[\"$\",\"$L11\",null,{}],[\"$\",\"$L12\",null,{}],[\"$\",\"$L13\",null,{}]]}],null],\"segment\":\"__PAGE__\"},\"styles\":[]}],\"segment\":\"our-process\"},\"styles\":[]}]}],[\"$\",\"footer\",null,{\"className\":\"Footer_footer__yUjxG\",\"children\":[[\"$\",\"div\",null,{\"className\":\"Footer_copyrightWrapper__9VI0F\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/\",\"children\":[\"$\",\"$L16\",null,{\"src\":\"/images/logo.webp\",\"alt\":\"logo\",\"width\":67,\"height\":64,\"className\":\"Footer_footerLogo__OItv_\"}]}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/\",\"children\":[\"$\",\"$L16\",null,{\"src\":\"/images/logo.webp\",\"alt\":\"logo\",\"width\":44.667,\"height\":42.667,\"className\":\"Footer_footerLogoMobile__JQMV0\"}]}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"p\",null,{\"className\":\"Footer_copyright__m8i3P\",\"children\":\"© 2023 Codefort, All rights reserved\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"Footer_footerNavsWrapper__2QYA9\",\"children\":[[\"$\",\"div\",\"0\",{\"className\":\"Footer_footerNavsWrapperInner__rU8OM\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"h3\",null,{\"className\":\"Footer_footerHeader__VAK2E\",\"children\":\"Company\"}]}],[\"$\",\"div\",null,{\"className\":\"Footer_footerNavs__uGTx7\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/about-us\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"About us\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/our-process\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Our process\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/terms-of-service/#privacy-policy\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Privacy Policy\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/terms-of-service\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Terms of service\"}]}]]}],null]}],[\"$\",\"div\",\"1\",{\"className\":\"Footer_footerNavsWrapperInner__rU8OM\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"h3\",null,{\"className\":\"Footer_footerHeader__VAK2E\",\"children\":\"Services\"}]}],[\"$\",\"div\",null,{\"className\":\"Footer_footerNavs__uGTx7\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/software-development\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Custom Software Development\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/blockchain\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Blockchain Development\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/product-design\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Product Design\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/ai-and-ml\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"AI and ML Development\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/outsourcing\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Outsourcing \u0026 Recruitment\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/maintenance\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Software Maintenance\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L15\",null,{\"href\":\"/startup-solutions\",\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Startup Solutions\"}]}]]}],null]}],[\"$\",\"div\",\"2\",{\"className\":\"Footer_footerNavsWrapperInner__rU8OM\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"h3\",null,{\"className\":\"Footer_footerHeader__VAK2E\",\"children\":\"Contact info\"}]}],[\"$\",\"div\",null,{\"className\":\"Footer_footerNavs__uGTx7\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"p\",null,{\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"Codefort HQ, Adebola House (Suite 100, Rear Wing), 38 Opebi Road, Ikeja-Lagos.\"}]}],[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"p\",null,{\"className\":\"Footer_footerLink__iFDe2\",\"children\":\"+234 906 631 4070 4\"}]}]]}],[[\"$\",\"div\",null,{\"className\":\"Footer_socialIconsMobile__8Wjb4\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://twitter.com/codefort/\",\"target\":\"_blank\",\"children\":[\"$\",\"$L16\",null,{\"src\":\"/images/twitter.svg\",\"alt\":\"social icon\",\"width\":32,\"height\":32,\"className\":\"Footer_socialIcon__uhwLW\"}]}]}],[\"$\",\"a\",null,{\"href\":\"https://linkedin.com/in/codefort-limited-340848259\",\"target\":\"_blank\",\"children\":[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L16\",null,{\"src\":\"/images/linkedin.svg\",\"alt\":\"social icon\",\"width\":32,\"height\":32,\"className\":\"Footer_socialIcon__uhwLW\"}]}]}]]}],[\"$\",\"div\",null,{\"className\":\"Footer_socialIcons__fF_Oa\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://twitter.com/codefort/\",\"target\":\"_blank\",\"children\":[\"$\",\"$L16\",null,{\"src\":\"/images/twitter.svg\",\"alt\":\"social icon\",\"width\":40,\"height\":40,\"className\":\"Footer_socialIcon__uhwLW\"}]}]}],[\"$\",\"a\",null,{\"href\":\"https://linkedin.com/in/codefort-limited-340848259\",\"target\":\"_blank\",\"children\":[[\"$\",\"$L14\",null,{\"type\":\"fade-in\",\"children\":[\"$\",\"$L16\",null,{\"src\":\"/images/linkedin.svg\",\"alt\":\"social icon\",\"width\":40,\"height\":40,\"className\":\"Footer_socialIcon__uhwLW\"}]}],\" \"]}]]}]]]}]]}]]}],[\"$\",\"$L17\",null,{}]]}]}],null]}]]\n"])
+    </script>
+    <script>
+      self.__next_f.push([1, "b:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Our Process - Codefort\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"We harness the boundless power of technology and innovation and elevate your business performance. Your Vision brought to life by Our Expertise.\"}],[\"$\",\"meta\",\"3\",{\"name\":\"keywords\",\"content\":\"software development,local,cheap,cost effective,startup,tech hiring,tech recruitment\"}],[\"$\",\"meta\",\"4\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:title\",\"content\":\"Transform your business ideas with Codefort solutions\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:description\",\"content\":\"Harness the power of scalable software solutions to elevate your business’s performance and profitability.\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:url\",\"content\":\"https://codeforttech.com.ng/\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image\",\"content\":\"https://codeforttech.com.ng/images/how-it-works-1.webp\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:site\",\"content\":\"@codefort\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:title\",\"content\":\"Transform your business ideas with Codefort solutions\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:description\",\"content\":\"Harness the power of scalable software solutions to elevate your business’s performance and profitability.\"}],[\"$\",\"meta\",\"14\",{\"name\":\"twitter:image\",\"content\":\"https://codeforttech.com.ng/images/how-it-works-1.webp\"}],[\"$\",\"link\",\"15\",{\"rel\":\"icon\",\"href\":\"/icon.ico?4ae34dfc97de72ce\",\"type\":\"image/x-icon\",\"sizes\":\"any\"}],[\"$\",\"meta\",\"16\",{\"name\":\"next-size-adjust\"}]]\n"])
+    </script>
+    <style type="text/css" data-typed-js-css="true">
+      .typed-cursor {
+        opacity: 1;
+      }
+
+      .typed-cursor.typed-cursor--blink {
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+      }
+
+      @keyframes typedjsBlink {
+        50% {
+          opacity: 0.0;
+        }
+      }
+
+      @-webkit-keyframes typedjsBlink {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0.0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+    <script src="https://www.google.com/recaptcha/enterprise.js?" id="google-recaptcha-v3" data-nscript="afterInteractive"></script><next-route-announcer style="position: absolute;"></next-route-announcer>
+   
+    <script src="/main.js"></script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/694bbd531b401c197cbf28b4/1jd7tn3r3';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </body>
+
+</html>

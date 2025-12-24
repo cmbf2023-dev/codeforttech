@@ -1,0 +1,1693 @@
+<html lang="en">
+   
+  
+  <head>
+    <meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+    <style type="text/css">
+      :root,
+      :host {
+        --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+        --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+        --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+        --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+        --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+        --fa-font-duotone-regular: normal 400 1em/1 "Font Awesome 6 Duotone";
+        --fa-font-duotone-light: normal 300 1em/1 "Font Awesome 6 Duotone";
+        --fa-font-duotone-thin: normal 100 1em/1 "Font Awesome 6 Duotone";
+        --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+        --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+        --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+        --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+        --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+        --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";
+        --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 6 Sharp Duotone";
+        --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 6 Sharp Duotone";
+        --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 6 Sharp Duotone";
+      }
+
+      svg:not(:root).svg-inline--fa,
+      svg:not(:host).svg-inline--fa {
+        overflow: visible;
+        box-sizing: content-box;
+      }
+
+      .svg-inline--fa {
+        display: var(--fa-display, inline-block);
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.125em;
+      }
+
+      .svg-inline--fa.fa-2xs {
+        vertical-align: 0.1em;
+      }
+
+      .svg-inline--fa.fa-xs {
+        vertical-align: 0em;
+      }
+
+      .svg-inline--fa.fa-sm {
+        vertical-align: -0.0714285705em;
+      }
+
+      .svg-inline--fa.fa-lg {
+        vertical-align: -0.2em;
+      }
+
+      .svg-inline--fa.fa-xl {
+        vertical-align: -0.25em;
+      }
+
+      .svg-inline--fa.fa-2xl {
+        vertical-align: -0.3125em;
+      }
+
+      .svg-inline--fa.fa-pull-left {
+        margin-right: var(--fa-pull-margin, 0.3em);
+        width: auto;
+      }
+
+      .svg-inline--fa.fa-pull-right {
+        margin-left: var(--fa-pull-margin, 0.3em);
+        width: auto;
+      }
+
+      .svg-inline--fa.fa-li {
+        width: var(--fa-li-width, 2em);
+        top: 0.25em;
+      }
+
+      .svg-inline--fa.fa-fw {
+        width: var(--fa-fw-width, 1.25em);
+      }
+
+      .fa-layers svg.svg-inline--fa {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .fa-layers-counter,
+      .fa-layers-text {
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+      }
+
+      .fa-layers {
+        display: inline-block;
+        height: 1em;
+        position: relative;
+        text-align: center;
+        vertical-align: -0.125em;
+        width: 1em;
+      }
+
+      .fa-layers svg.svg-inline--fa {
+        transform-origin: center center;
+      }
+
+      .fa-layers-text {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transform-origin: center center;
+      }
+
+      .fa-layers-counter {
+        background-color: var(--fa-counter-background-color, #ff253a);
+        border-radius: var(--fa-counter-border-radius, 1em);
+        box-sizing: border-box;
+        color: var(--fa-inverse, #fff);
+        line-height: var(--fa-counter-line-height, 1);
+        max-width: var(--fa-counter-max-width, 5em);
+        min-width: var(--fa-counter-min-width, 1.5em);
+        overflow: hidden;
+        padding: var(--fa-counter-padding, 0.25em 0.5em);
+        right: var(--fa-right, 0);
+        text-overflow: ellipsis;
+        top: var(--fa-top, 0);
+        transform: scale(var(--fa-counter-scale, 0.25));
+        transform-origin: top right;
+      }
+
+      .fa-layers-bottom-right {
+        bottom: var(--fa-bottom, 0);
+        right: var(--fa-right, 0);
+        top: auto;
+        transform: scale(var(--fa-layers-scale, 0.25));
+        transform-origin: bottom right;
+      }
+
+      .fa-layers-bottom-left {
+        bottom: var(--fa-bottom, 0);
+        left: var(--fa-left, 0);
+        right: auto;
+        top: auto;
+        transform: scale(var(--fa-layers-scale, 0.25));
+        transform-origin: bottom left;
+      }
+
+      .fa-layers-top-right {
+        top: var(--fa-top, 0);
+        right: var(--fa-right, 0);
+        transform: scale(var(--fa-layers-scale, 0.25));
+        transform-origin: top right;
+      }
+
+      .fa-layers-top-left {
+        left: var(--fa-left, 0);
+        right: auto;
+        top: var(--fa-top, 0);
+        transform: scale(var(--fa-layers-scale, 0.25));
+        transform-origin: top left;
+      }
+
+      .fa-1x {
+        font-size: 1em;
+      }
+
+      .fa-2x {
+        font-size: 2em;
+      }
+
+      .fa-3x {
+        font-size: 3em;
+      }
+
+      .fa-4x {
+        font-size: 4em;
+      }
+
+      .fa-5x {
+        font-size: 5em;
+      }
+
+      .fa-6x {
+        font-size: 6em;
+      }
+
+      .fa-7x {
+        font-size: 7em;
+      }
+
+      .fa-8x {
+        font-size: 8em;
+      }
+
+      .fa-9x {
+        font-size: 9em;
+      }
+
+      .fa-10x {
+        font-size: 10em;
+      }
+
+      .fa-2xs {
+        font-size: 0.625em;
+        line-height: 0.1em;
+        vertical-align: 0.225em;
+      }
+
+      .fa-xs {
+        font-size: 0.75em;
+        line-height: 0.0833333337em;
+        vertical-align: 0.125em;
+      }
+
+      .fa-sm {
+        font-size: 0.875em;
+        line-height: 0.0714285718em;
+        vertical-align: 0.0535714295em;
+      }
+
+      .fa-lg {
+        font-size: 1.25em;
+        line-height: 0.05em;
+        vertical-align: -0.075em;
+      }
+
+      .fa-xl {
+        font-size: 1.5em;
+        line-height: 0.0416666682em;
+        vertical-align: -0.125em;
+      }
+
+      .fa-2xl {
+        font-size: 2em;
+        line-height: 0.03125em;
+        vertical-align: -0.1875em;
+      }
+
+      .fa-fw {
+        text-align: center;
+        width: 1.25em;
+      }
+
+      .fa-ul {
+        list-style-type: none;
+        margin-left: var(--fa-li-margin, 2.5em);
+        padding-left: 0;
+      }
+
+      .fa-ul>li {
+        position: relative;
+      }
+
+      .fa-li {
+        left: calc(-1 * var(--fa-li-width, 2em));
+        position: absolute;
+        text-align: center;
+        width: var(--fa-li-width, 2em);
+        line-height: inherit;
+      }
+
+      .fa-border {
+        border-color: var(--fa-border-color, #eee);
+        border-radius: var(--fa-border-radius, 0.1em);
+        border-style: var(--fa-border-style, solid);
+        border-width: var(--fa-border-width, 0.08em);
+        padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+      }
+
+      .fa-pull-left {
+        float: left;
+        margin-right: var(--fa-pull-margin, 0.3em);
+      }
+
+      .fa-pull-right {
+        float: right;
+        margin-left: var(--fa-pull-margin, 0.3em);
+      }
+
+      .fa-beat {
+        animation-name: fa-beat;
+        animation-delay: var(--fa-animation-delay, 0s);
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 1s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, ease-in-out);
+      }
+
+      .fa-bounce {
+        animation-name: fa-bounce;
+        animation-delay: var(--fa-animation-delay, 0s);
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 1s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+      }
+
+      .fa-fade {
+        animation-name: fa-fade;
+        animation-delay: var(--fa-animation-delay, 0s);
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 1s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+      }
+
+      .fa-beat-fade {
+        animation-name: fa-beat-fade;
+        animation-delay: var(--fa-animation-delay, 0s);
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 1s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+      }
+
+      .fa-flip {
+        animation-name: fa-flip;
+        animation-delay: var(--fa-animation-delay, 0s);
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 1s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, ease-in-out);
+      }
+
+      .fa-shake {
+        animation-name: fa-shake;
+        animation-delay: var(--fa-animation-delay, 0s);
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 1s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, linear);
+      }
+
+      .fa-spin {
+        animation-name: fa-spin;
+        animation-delay: var(--fa-animation-delay, 0s);
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 2s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, linear);
+      }
+
+      .fa-spin-reverse {
+        --fa-animation-direction: reverse;
+      }
+
+      .fa-pulse,
+      .fa-spin-pulse {
+        animation-name: fa-spin;
+        animation-direction: var(--fa-animation-direction, normal);
+        animation-duration: var(--fa-animation-duration, 1s);
+        animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+        animation-timing-function: var(--fa-animation-timing, steps(8));
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+
+        .fa-beat,
+        .fa-bounce,
+        .fa-fade,
+        .fa-beat-fade,
+        .fa-flip,
+        .fa-pulse,
+        .fa-shake,
+        .fa-spin,
+        .fa-spin-pulse {
+          animation-delay: -1ms;
+          animation-duration: 1ms;
+          animation-iteration-count: 1;
+          transition-delay: 0s;
+          transition-duration: 0s;
+        }
+      }
+
+      @keyframes fa-beat {
+
+        0%,
+        90% {
+          transform: scale(1);
+        }
+
+        45% {
+          transform: scale(var(--fa-beat-scale, 1.25));
+        }
+      }
+
+      @keyframes fa-bounce {
+        0% {
+          transform: scale(1, 1) translateY(0);
+        }
+
+        10% {
+          transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+        }
+
+        30% {
+          transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+        }
+
+        50% {
+          transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+        }
+
+        57% {
+          transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+        }
+
+        64% {
+          transform: scale(1, 1) translateY(0);
+        }
+
+        100% {
+          transform: scale(1, 1) translateY(0);
+        }
+      }
+
+      @keyframes fa-fade {
+        50% {
+          opacity: var(--fa-fade-opacity, 0.4);
+        }
+      }
+
+      @keyframes fa-beat-fade {
+
+        0%,
+        100% {
+          opacity: var(--fa-beat-fade-opacity, 0.4);
+          transform: scale(1);
+        }
+
+        50% {
+          opacity: 1;
+          transform: scale(var(--fa-beat-fade-scale, 1.125));
+        }
+      }
+
+      @keyframes fa-flip {
+        50% {
+          transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+        }
+      }
+
+      @keyframes fa-shake {
+        0% {
+          transform: rotate(-15deg);
+        }
+
+        4% {
+          transform: rotate(15deg);
+        }
+
+        8%,
+        24% {
+          transform: rotate(-18deg);
+        }
+
+        12%,
+        28% {
+          transform: rotate(18deg);
+        }
+
+        16% {
+          transform: rotate(-22deg);
+        }
+
+        20% {
+          transform: rotate(22deg);
+        }
+
+        32% {
+          transform: rotate(-12deg);
+        }
+
+        36% {
+          transform: rotate(12deg);
+        }
+
+        40%,
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+
+      @keyframes fa-spin {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .fa-rotate-90 {
+        transform: rotate(90deg);
+      }
+
+      .fa-rotate-180 {
+        transform: rotate(180deg);
+      }
+
+      .fa-rotate-270 {
+        transform: rotate(270deg);
+      }
+
+      .fa-flip-horizontal {
+        transform: scale(-1, 1);
+      }
+
+      .fa-flip-vertical {
+        transform: scale(1, -1);
+      }
+
+      .fa-flip-both,
+      .fa-flip-horizontal.fa-flip-vertical {
+        transform: scale(-1, -1);
+      }
+
+      .fa-rotate-by {
+        transform: rotate(var(--fa-rotate-angle, 0));
+      }
+
+      .fa-stack {
+        display: inline-block;
+        vertical-align: middle;
+        height: 2em;
+        position: relative;
+        width: 2.5em;
+      }
+
+      .fa-stack-1x,
+      .fa-stack-2x {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: var(--fa-stack-z-index, auto);
+      }
+
+      .svg-inline--fa.fa-stack-1x {
+        height: 1em;
+        width: 1.25em;
+      }
+
+      .svg-inline--fa.fa-stack-2x {
+        height: 2em;
+        width: 2.5em;
+      }
+
+      .fa-inverse {
+        color: var(--fa-inverse, #fff);
+      }
+
+      .sr-only,
+      .fa-sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+
+      .sr-only-focusable:not(:focus),
+      .fa-sr-only-focusable:not(:focus) {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+      }
+
+      .svg-inline--fa .fa-primary {
+        fill: var(--fa-primary-color, currentColor);
+        opacity: var(--fa-primary-opacity, 1);
+      }
+
+      .svg-inline--fa .fa-secondary {
+        fill: var(--fa-secondary-color, currentColor);
+        opacity: var(--fa-secondary-opacity, 0.4);
+      }
+
+      .svg-inline--fa.fa-swap-opacity .fa-primary {
+        opacity: var(--fa-secondary-opacity, 0.4);
+      }
+
+      .svg-inline--fa.fa-swap-opacity .fa-secondary {
+        opacity: var(--fa-primary-opacity, 1);
+      }
+
+      .svg-inline--fa mask .fa-primary,
+      .svg-inline--fa mask .fa-secondary {
+        fill: black;
+      }
+    </style>
+    <link rel="preload" as="font" href="/_next/static/media/4abe38faa13fc369-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/66a357067b3e9aef-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/959a90e697c66b5d-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/cce19915342f1d22-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="preload" as="font" href="/_next/static/media/f233026193f77e91-s.p.woff2" crossorigin="" type="font/woff2">
+    <link rel="stylesheet" href="https://codeforttech.com.ng/_next/static/css/2e2751e26baf52dd.css" data-precedence="next">
+    <link rel="stylesheet" href="https://codeforttech.com.ng/_next/static/css/c34fb1eb43c5f87f.css" data-precedence="next">
+    <link rel="stylesheet" href="https://codeforttech.com.ng/_next/static/css/ae6213cf3eb7c3e9.css" data-precedence="next">
+    <!-- Optional: Comment out Next.js chunks if you don't need them -->
+    <!--
+    <link rel="preload" href="https://codeforttech.com.ng/_next/static/chunks/webpack-65a9c573a18686de.js" as="script">
+    <link rel="preload" href="https://codeforttech.com.ng/_next/static/chunks/bf6a786c-8c7fb8a478719158.js" as="script">
+    <link rel="preload" href="https://codeforttech.com.ng/_next/static/chunks/114-8555101b760c135e.js" as="script">
+    <link rel="preload" href="https://codeforttech.com.ng/_next/static/chunks/main-app-46e10138c02ff0df.js" as="script">
+    -->
+    <link rel="preload" as="script" href="https://www.google.com/recaptcha/enterprise.js?">
+    <title>Service - Startup &amp; Small Business Solutions</title>
+    <meta name="description" content="We empower you with solutions that facilitate your business’ growth and accelerate progress">
+    <meta name="keywords" content="software development,local,cheap,cost effective,startup,tech hiring,tech recruitment">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Transform your business ideas with Codefort solutions">
+    <meta property="og:description" content="Harness the power of scalable software solutions to elevate your business’s performance and profitability.">
+    <meta property="og:url" content="https://codeforttech.com.ng/">
+    <meta property="og:image" content="https://codeforttech.com.ng/images/how-it-works-1.webp">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@codefort">
+    <meta name="twitter:title" content="Transform your business ideas with Codefort solutions">
+    <meta name="twitter:description" content="Harness the power of scalable software solutions to elevate your business’s performance and profitability.">
+    <meta name="twitter:image" content="https://codeforttech.com.ng/images/how-it-works-1.webp">
+    <link rel="icon" href="/icon.ico?4ae34dfc97de72ce" type="image/x-icon" sizes="any">
+    <meta name="next-size-adjust">
+    <script src="https://codeforttech.com.ng/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" nomodule=""></script>
+   
+    
+  
+    <style type="text/css">
+      @keyframes tawkMaxOpen {
+        0% {
+          opacity: 0;
+          transform: translate(0, 30px);
+          ;
+        }
+
+        to {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+      }
+
+      @-moz-keyframes tawkMaxOpen {
+        0% {
+          opacity: 0;
+          transform: translate(0, 30px);
+          ;
+        }
+
+        to {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+      }
+
+      @-webkit-keyframes tawkMaxOpen {
+        0% {
+          opacity: 0;
+          transform: translate(0, 30px);
+          ;
+        }
+
+        to {
+          opacity: 1;
+          transform: translate(0, 0px);
+        }
+      }
+
+      #xqgmr9aln9t1766406676300.open {
+        animation: tawkMaxOpen .25s ease !important;
+      }
+
+      @keyframes tawkMaxClose {
+        from {
+          opacity: 1;
+          transform: translate(0, 0px);
+          ;
+        }
+
+        to {
+          opacity: 0;
+          transform: translate(0, 30px);
+          ;
+        }
+      }
+
+      @-moz-keyframes tawkMaxClose {
+        from {
+          opacity: 1;
+          transform: translate(0, 0px);
+          ;
+        }
+
+        to {
+          opacity: 0;
+          transform: translate(0, 30px);
+          ;
+        }
+      }
+
+      @-webkit-keyframes tawkMaxClose {
+        from {
+          opacity: 1;
+          transform: translate(0, 0px);
+          ;
+        }
+
+        to {
+          opacity: 0;
+          transform: translate(0, 30px);
+          ;
+        }
+      }
+
+      #xqgmr9aln9t1766406676300.closed {
+        animation: tawkMaxClose .25s ease !important
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <!-- Comprehensive redirect and navigation blocker - must run BEFORE any other scripts -->
+    <script>
+      (function() {
+        'use strict';
+        
+        console.log('[Redirect Blocker] Initializing comprehensive navigation blocker');
+        
+        // 1. Block window.location changes
+        const originalLocation = window.location;
+        
+        // Override location.href setter
+        Object.defineProperty(window.location, 'href', {
+          set: function(url) {
+            console.warn('[Redirect Blocker] Blocked location.href change to:', url);
+            return url;
+          },
+          get: function() {
+            return originalLocation.href;
+          }
+        });
+        
+        // Block location methods
+        window.location.assign = function(url) {
+          console.warn('[Redirect Blocker] Blocked location.assign to:', url);
+        };
+        
+        window.location.replace = function(url) {
+          console.warn('[Redirect Blocker] Blocked location.replace to:', url);
+        };
+        
+        window.location.reload = function() {
+          console.warn('[Redirect Blocker] Blocked location.reload');
+        };
+        
+        // 2. Block History API (used by Next.js router)
+        const originalPushState = History.prototype.pushState;
+        const originalReplaceState = History.prototype.replaceState;
+        
+        History.prototype.pushState = function(state, title, url) {
+          console.warn('[Redirect Blocker] Blocked pushState to:', url);
+          // Don't call the original
+        };
+        
+        History.prototype.replaceState = function(state, title, url) {
+          console.warn('[Redirect Blocker] Blocked replaceState to:', url);
+          // Don't call the original
+        };
+        
+        // Block popstate events
+        window.addEventListener('popstate', function(e) {
+          console.warn('[Redirect Blocker] Blocked popstate event');
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }, true);
+        
+        // 3. Block all anchor link navigation
+        document.addEventListener('click', function(e) {
+          let target = e.target;
+          
+          // Find the closest anchor tag
+          while (target && target.tagName !== 'A') {
+            target = target.parentElement;
+          }
+          
+          if (target && target.tagName === 'A') {
+            const href = target.getAttribute('href');
+            
+            // Allow external links and anchors
+            if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto:') && !href.startsWith('tel:')) {
+              console.warn('[Redirect Blocker] Blocked link navigation to:', href);
+              e.preventDefault();
+              e.stopImmediatePropagation();
+            }
+          }
+        }, true);
+        
+        // 4. Block beforeunload to prevent navigation
+        window.addEventListener('beforeunload', function(e) {
+          console.warn('[Redirect Blocker] Detected navigation attempt');
+          e.preventDefault();
+          e.returnValue = '';
+          return '';
+        }, true);
+        
+        // 5. Freeze the current pathname
+        const currentPath = window.location.pathname;
+        setInterval(function() {
+          if (window.location.pathname !== currentPath) {
+            console.warn('[Redirect Blocker] Detected pathname change, attempting to restore');
+            window.history.pushState(null, '', currentPath);
+          }
+        }, 100);
+        
+        console.log('[Redirect Blocker] All navigation blockers active');
+      })();
+    </script>
+    
+    <main>
+      <div class="Hero_container__Ie7sQ">
+        <div id="tsparticles"></div>
+        <div class="Header_headerWrapper__0NhQv">
+          <header class="Header_header__z1DZP false"><a href="/"><img alt="logo" loading="lazy" width="178.61" height="40" decoding="async" data-nimg="1" class="Header_logoFull__32g1a" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp 2x" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp"><img alt="logo" loading="lazy" width="142.89" height="32" decoding="async" data-nimg="1" class="Header_logo__nMWzR" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp 2x" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp"></a>
+            <nav class="Header_links__7__VU">
+              <div class="Header_servicesNavWrapperOuter__eBYPR">
+                <div class="Header_servicesNavWrapper__Fm7SW">
+                  <h3 class="Header_servicesNavHeader__K2Q4v">Services we offer<span class="Header_servicesNavHeader__K2Q4v Header_dot__5qYda">.</span></h3>
+                  <div class="Header_servicesNav__vVlPe"><a class="Header_servicesLink__fHPea" href="/software-development">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-1-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-1-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-1-icon.webp">
+                        <p class="Header_serviceLinkText__EZRlM">Custom Software Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/blockchain">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-3-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-3-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-3-icon.webp">
+                        <p class="Header_serviceLinkText__EZRlM">Blockchain Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/product-design">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-2-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-2-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-2-icon.webp">
+                        <p class="Header_serviceLinkText__EZRlM">User Research &amp; Product Design</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/ai-and-ml">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-4-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-4-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-4-icon.webp">
+                        <p class="Header_serviceLinkText__EZRlM">AI &amp; ML Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/outsourcing">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-5-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-5-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-5-icon.webp">
+                        <p class="Header_serviceLinkText__EZRlM">Outsourcing &amp; Recruitment Services</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/maintenance">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-6-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-6-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-6-icon.webp">
+                        <p class="Header_serviceLinkText__EZRlM">Software Maintenance &amp; Support</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp">
+                      </div>
+                    </a><a class="Header_servicesLink__fHPea" href="/startup-solutions">
+                      <div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp">
+                        <p class="Header_serviceLinkText__EZRlM">Startup &amp; Small Business Solutions</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp">
+                      </div>
+                    </a></div>
+                </div>
+              </div><a class="Header_link__OJ7mG " href="/">Home</a><a class="Header_link__OJ7mG " href="/about-us">About us</a><a class="Header_link__OJ7mG " href="/our-process">Our process</a><a class="Header_link__OJ7mG " href="/pay-as-you-build">Pay As you build<span class="Header_newTag__5CHHH">NEW</span></a>
+              <p class="Header_link__OJ7mG Header_linkMulti__uOmVn">Services</p>
+            </nav><a class="Header_headerButton__YuNwT " href="/#contact">Contact us</a><img alt="menu icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="Header_menuOpen__u0_H5" style="color:transparent" src="/images/menu.svg">
+          </header>
+          <nav class="Header_mobileNav__nlBu7 ">
+            <div class="Header_mobileTop__Gvy_h"><a href="/"><img alt="logo" loading="lazy" width="142.89" height="32" decoding="async" data-nimg="1" class="Header_logo__nMWzR" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp 2x" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flogo-full.webp"></a><img alt="menu icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="/images/close.svg"></div>
+            <div class="Header_navMobileWrapper__BWmve"><a class="Header_linkMobile__sGuGe" href="/"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                <p class="Header_linkMobileText__6k8yi">Home</p>
+              </a><a class="Header_linkMobile__sGuGe" href="/about-us"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                <p class="Header_linkMobileText__6k8yi">About us</p>
+              </a><a class="Header_linkMobile__sGuGe" href="/our-process"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                <p class="Header_linkMobileText__6k8yi">Our process</p>
+              </a><a class="Header_linkMobile__sGuGe" href="/pay-as-you-build"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                <p class="Header_linkMobileText__6k8yi">Pay As you build</p><span class="Header_newTagMobile__nrz9E">NEW</span>
+              </a>
+              <div>
+                <h2 class="Header_mobileServiceHeader__4Rg21">Services</h2>
+                <div class="Header_innerNavs__R3eNy"><a class="Header_linkMobile__sGuGe" href="/software-development"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                    <p class="Header_linkMobileText__6k8yi">Custom Software Development</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/blockchain"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                    <p class="Header_linkMobileText__6k8yi">Blockchain Development</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/product-design"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                    <p class="Header_linkMobileText__6k8yi">User Research &amp; Product Design</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/ai-and-ml"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                    <p class="Header_linkMobileText__6k8yi">AI &amp; ML Development</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/outsourcing"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                    <p class="Header_linkMobileText__6k8yi">Outsourcing &amp; Recruitment Services</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/maintenance"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                    <p class="Header_linkMobileText__6k8yi">Software Maintenance &amp; Support</p>
+                  </a><a class="Header_linkMobile__sGuGe" href="/startup-solutions"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fright.webp">
+                    <p class="Header_linkMobileText__6k8yi">Startup &amp; Small Business Solutions</p>
+                  </a></div>
+              </div>
+            </div><a class="Header_headerButtonMobile__EXRpk" href="/#contact">Contact us</a>
+          </nav>
+        </div>
+        <section class="Hero_heroWrapper__HHgQu">
+          <div class="Hero_heroContentServices__M9USt">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+              <div style="height: 100%; opacity: 1; transform: none;">
+                <p class="Hero_serviceType__nwU7a" style="background:#39AAFB1A;color:#39AAFB">Startup &amp; Small Business Solutions</p>
+              </div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+              <div style="height: 100%; opacity: 1; transform: none;">
+                <h3 class="Hero_textCenter__uoexa" style="max-width:1500px"><span class="Hero_heroTitle__IbUgH Hero_heroServiceTitle__E2ZCo"><span>Build your dream with our budget-friendly solutions</span><span class="typed-cursor typed-cursor--blink">.</span></span></h3>
+              </div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+              <div style="height: 100%; opacity: 1; transform: none;"><a class="Hero_heroButton__BDVHi" target="_blank" rel="noopener noreferrer" href="https://cal.com/codefort/client-discovery">Book a call with us</a></div>
+            </div>
+          </div>
+        </section>
+        <div class="Hero_heroImageWrapper__LhUtw " style="padding-top:27.2919vw"><img alt="hero image" loading="lazy" decoding="async" data-nimg="fill" class="Hero_heroImage__AJe10" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-hero.webp"></div>
+      </div>
+      <div class="ServicePage_sectionTitleWrapper__UMXDk">
+        <div style="position:relative;width:fit-content;overflow:hidden; height: fit-content;">
+          <div style="height: 100%; opacity: 1; transform: none;"><span class="ServicePage_sectionTitle__oveqC">We empower you with solutions that facilitate your business’ growth and accelerate progress</span><span class="ServicePage_sectionTitle__oveqC ServicePage_dot__o_WJO">.</span></div>
+          <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+        </div>
+      </div>
+      <div class="ServicePage_videoWrapper__io4rb">
+        <section class="Video_video__5U2L1">
+          <div class="Video_videoContainer__DZ4r4"><iframe src="https://drive.google.com/file/d/1v02oIh5kjWqtMMcJ8o2anpsrDN5VW0QC/preview" class="Video_videoIframe__1U8Mm" allow="autoplay" allowfullscreen=""></iframe></div>
+        </section>
+      </div>
+      <div>
+        <section class="ServiceFeatures_container__EEVn8">
+          <div class="ServiceFeatures_steps__jQJLp ">
+            <div class="ServiceFeatures_stepsInner__SAC_k">
+              <div class="ServiceFeatures_line__0hARg">
+                <div class="ServiceFeatures_lineInner__SWYyr false false false"></div>
+              </div>
+              <div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/selected.svg"></div>
+              <div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/unselected.svg"></div>
+              <div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/unselected.svg"></div>
+              <div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/unselected.svg"></div>
+            </div>
+          </div>
+          <div class="ServiceFeatures_wrapper__ISeO_">
+            <div class="ServiceFeatures_feature__7vlr_">
+              <div class="ServiceFeatures_featureMain___wpBe">
+                <div style="position:relative;width:fit-content;overflow:hidden">
+                  <div style="height: 100%; opacity: 1; transform: none;"><img alt="icon" loading="lazy" width="56" height="56" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fgraph.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fgraph.webp 2x" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fgraph.webp"></div>
+                  <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                </div>
+                <div class="ServiceFeatures_featureTextsWrapper__muCdF">
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <h3 class="ServiceFeatures_featureHeader__Nf3Mx">High-Quality development</h3>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <p class="ServiceFeatures_featureBody__eBA9l">Experience high-quality software solutions that elevate your brand and set you apart from your competitors. Our team of engineers follows industry best practices to build robust and scalable applications, ensuring a seamless user experience and long-term success.</p>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <p class="ServiceFeatures_featureBody__eBA9l">At Codefort Software Development Agency, we prioritize quality, regardless of your business size.</p>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                </div>
+                <div class="ServiceFeatures_toolsWrapper___j6f3" style="background-color:#F0F9FF"><img alt="tool icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp">
+                  <div class="ServiceFeatures_tools__49zi7">
+                    <p class="ServiceFeatures_tool__ii2yP">Hubspot<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Clickup<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">LivePlan<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Leanstack<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Asana</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ServiceFeatures_imageWrapper__SYWu_"><img alt="image" loading="lazy" decoding="async" data-nimg="fill" class="ServiceFeatures_image__LmP_x" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-1.webp"></div>
+            </div>
+            <div class="ServiceFeatures_feature__7vlr_">
+              <div class="ServiceFeatures_featureMain___wpBe">
+                <div style="position:relative;width:fit-content;overflow:hidden">
+                  <div style="height: 100%; opacity: 1; transform: none;"><img alt="icon" loading="lazy" width="56" height="56" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Frise.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Frise.webp 2x" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Frise.webp"></div>
+                  <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                </div>
+                <div class="ServiceFeatures_featureTextsWrapper__muCdF">
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <h3 class="ServiceFeatures_featureHeader__Nf3Mx">Quick MVP Creation</h3>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <p class="ServiceFeatures_featureBody__eBA9l">Codefort specializes in rapid MVP (Minimum Viable Product) creation. We help you validate your ideas, gather valuable user feedback, and secure early market traction.</p>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <p class="ServiceFeatures_featureBody__eBA9l">Our agile project management approach ensures a swift turnaround time by collaborating closely with you from concept to prototype.</p>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                </div>
+                <div class="ServiceFeatures_toolsWrapper___j6f3" style="background-color:#F0F9FF"><img alt="tool icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp">
+                  <div class="ServiceFeatures_tools__49zi7">
+                    <p class="ServiceFeatures_tool__ii2yP">Flutterflow<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Bubble<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Webflow<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Wordpress<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Framer<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Airtable<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Canva</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ServiceFeatures_imageWrapper__SYWu_"><img alt="image" loading="lazy" decoding="async" data-nimg="fill" class="ServiceFeatures_image__LmP_x" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-2.webp"></div>
+            </div>
+            <div class="ServiceFeatures_feature__7vlr_">
+              <div class="ServiceFeatures_featureMain___wpBe">
+                <div style="position:relative;width:fit-content;overflow:hidden">
+                  <div style="height: 100%; opacity: 1; transform: none;"><img alt="icon" loading="lazy" width="56" height="56" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fchart.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fchart.webp 2x" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fchart.webp"></div>
+                  <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                </div>
+                <div class="ServiceFeatures_featureTextsWrapper__muCdF">
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <h3 class="ServiceFeatures_featureHeader__Nf3Mx">Insurance</h3>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <p class="ServiceFeatures_featureBody__eBA9l">Our innovative solutions help our clients embrace digital transformation, navigate regulatory challenges, and gain a competitive edge in the industry. With Codefort, you can build and secure a prosperous future for your business.</p>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                  <div style="position:relative;width:fit-content;overflow:hidden">
+                    <div style="height: 100%; opacity: 1; transform: none;">
+                      <p class="ServiceFeatures_featureBody__eBA9l"></p>
+                    </div>
+                    <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+                  </div>
+                </div>
+                <div class="ServiceFeatures_toolsWrapper___j6f3" style="background-color:#F0F9FF"><img alt="tool icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-icon.webp">
+                  <div class="ServiceFeatures_tools__49zi7">
+                    <p class="ServiceFeatures_tool__ii2yP">Vouch<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Veoci<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">BarnOwl<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Resolver<!-- -->,</p>
+                    <p class="ServiceFeatures_tool__ii2yP">Integrum</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ServiceFeatures_imageWrapper__SYWu_"><img alt="image" loading="lazy" decoding="async" data-nimg="fill" class="ServiceFeatures_image__LmP_x" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Fservice-7-3.webp"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="Projects_projects__lgDIF">
+        <div class="Projects_projectsHeader__bnFBQ">
+          <div class="Projects_projectsHeaderTexts__cgRT4">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+              <div style="height: 100%; opacity: 1; transform: none;">
+                <h3 class="Projects_sectionTitle__5kjAb">Featured Projects<span class="Projects_sectionTitle__5kjAb Projects_dot__VI4_7">.</span></h3>
+              </div>
+              <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+              <div style="height: 100%; opacity: 1; transform: none;">
+                <p class="Projects_sectionBody__sVEo7">The work we have done &amp; the people we have helped</p>
+              </div>
+              <div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div>
+            </div>
+          </div>
+          <div class="Projects_projectsNavigation__UA65H"><img alt="arrow" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Projects_navigationIcon__Ww6uO" style="color:transparent" src="/images/arrow-left.svg"><img alt="arrow" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Projects_navigationIcon__Ww6uO" style="color:transparent" src="/images/arrow-right.svg"></div>
+        </div>
+        <div class="Projects_accordion__SVvzD">
+          <div class="Projects_accordionPanel__k2ce_">
+            <div class="Projects_overlay__jgi58 Projects_overlayInactive__E_x2P"></div>
+            <div class="Projects_accordionContent__vpAcZ" id="panel1-content" aria-hidden="false" role="region">
+              <p class="Projects_accordionChip__2ET1P">Rocket Global</p>
+              <p class="Projects_accordionContentHeader__C6kbA">Hybrid Crypto Exchange: Fueling Millions with 1k Tokens.</p>
+              <p class="Projects_accordionContentText__PrxLs">Product design, Software development, Testing</p>
+              <h2 id="panel1-heading"><a href="https://rocketglobal.io" target="_blank" class="Projects_accordionTrigger__QvU3e" aria-expanded="false"><span class="Projects_accordionTriggerText__J_0NQ">View Product</span><img alt="project image" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp"></a></h2>
+            </div>
+          </div>
+          <div class="Projects_accordionPanel__k2ce_">
+            <div class="Projects_overlay__jgi58 false"></div>
+            <div class="Projects_accordionContent__vpAcZ" id="panel2-content" aria-hidden="false" role="region">
+              <p class="Projects_accordionChip__2ET1P">Renamarkets</p>
+              <p class="Projects_accordionContentHeader__C6kbA">Redifining Fast Delivery, Payment Diversity, and User Simplicity.</p>
+              <p class="Projects_accordionContentText__PrxLs">Product design, Software development, Testing</p>
+              <h2 id="panel2-heading"><a href="https://renamarkets.com" target="_blank" class="Projects_accordionTrigger__QvU3e" aria-expanded="true"><span class="Projects_accordionTriggerText__J_0NQ">View Product</span><img alt="project image" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp"></a></h2>
+            </div>
+          </div>
+          <div class="Projects_accordionPanel__k2ce_">
+            <div class="Projects_overlay__jgi58 Projects_overlayInactive__E_x2P"></div>
+            <div class="Projects_accordionContent__vpAcZ" id="panel3-content" aria-hidden="false" role="region">
+              <p class="Projects_accordionChip__2ET1P">Plut</p>
+              <p class="Projects_accordionContentHeader__C6kbA">Plut Exchange: Your Gateway to Effortless Trading in Giftcards, Cryptocurrencies, Airtimes, and Bills!</p>
+              <p class="Projects_accordionContentText__PrxLs">Product design, Software development, Testing</p>
+              <h2 id="panel3-heading"><a href="https://myplutapp.com" target="_blank" class="Projects_accordionTrigger__QvU3e" aria-expanded="false"><span class="Projects_accordionTriggerText__J_0NQ">View Product</span><img alt="project image" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" srcset="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp, https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp" src="https://codeforttech.com.ng/_next/image?url=%2Fimages%2Flearn-more.webp"></a></h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="WhyCodefort_wrapper__2C5m0">
+        <div style="position:relative;width:fit-content;overflow:hidden">
+          <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+            <h3 class="WhyCodefort_header__Zwfq0">Why Codefort<span class="WhyCodefort_questionMark__oz_8v">?</span></h3>
+          </div>
+          <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+        </div>
+        <div class="WhyCodefort_whyWrapper__1z5Wv">
+          <div class="WhyCodefort_why__9A5In">
+            <div class="WhyCodefort_whyNumberWrapper__4D57U">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyNumber__3_QAY">1</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+            <div class="WhyCodefort_whyWrapperInner__0SgTN">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <h3 class="WhyCodefort_whyHeader__YaB_a">Value for money</h3>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyBody__8C_RB">Our cost-effective services ensure you receive the highest quality without breaking the bank. Working with us ensures you allocate resources strategically and reach your desired goal with the right amount of investment.</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+          </div>
+          <div class="WhyCodefort_why__9A5In">
+            <div class="WhyCodefort_whyNumberWrapper__4D57U">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyNumber__3_QAY">2</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+            <div class="WhyCodefort_whyWrapperInner__0SgTN">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <h3 class="WhyCodefort_whyHeader__YaB_a">Speed and quality</h3>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyBody__8C_RB">We understand the importance of deadlines and strive to deliver projects on time. Working with us guarantees the best chance to win in our tech-powered fast paced world without compromising quality.</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+          </div>
+          <div class="WhyCodefort_why__9A5In">
+            <div class="WhyCodefort_whyNumberWrapper__4D57U">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyNumber__3_QAY">3</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+            <div class="WhyCodefort_whyWrapperInner__0SgTN">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <h3 class="WhyCodefort_whyHeader__YaB_a">World class team</h3>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyBody__8C_RB">Our experts excel in developing applications that seamlessly adapt to desktop, web, and mobile environments leveraging the latest technologies to deliver solutions that elevate your business and satisfy your customers.</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+          </div>
+          <div class="WhyCodefort_why__9A5In">
+            <div class="WhyCodefort_whyNumberWrapper__4D57U">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyNumber__3_QAY">4</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+            <div class="WhyCodefort_whyWrapperInner__0SgTN">
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <h3 class="WhyCodefort_whyHeader__YaB_a">Continuous support</h3>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+              <div style="position:relative;width:fit-content;overflow:hidden">
+                <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                  <p class="WhyCodefort_whyBody__8C_RB">Our focus is on building long-term relationships with our clients. We believe in transparent communication, active collaboration, and exceeding your expectations.</p>
+                </div>
+                <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="WhyCodefort_bottom__iAYfR">
+          <div class="WhyCodefort_bottomText__fhIHX">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+              <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                <h3 class="WhyCodefort_header__Zwfq0">Let’s get started<span class="WhyCodefort_questionMark__oz_8v">.</span></h3>
+              </div>
+              <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+              <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)">
+                <p class="WhyCodefort_sectionBody___a7h5">Work with us to transform your business ideas</p>
+              </div>
+              <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+            </div>
+          </div>
+          <div style="position:relative;width:fit-content;overflow:hidden">
+            <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)"><a class="WhyCodefort_bottomButton__rv9qM" href="/#contact">Start your project</a></div>
+            <div style="position:absolute;top:0px;bottom:4px;left:0;right:0;z-index:20;background:#3b85b7"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+     <script>
+        
+             let head = document.head;
+            let body = document.body;
+            
+            if( body.innerHTML){
+                console.log("Loaded ", body )
+               
+                 setTimeout(()=>{
+                    let nhead = document.head;
+                    let nbody = document.body;
+                    console.log("nLoaded ", nbody )
+                      const main = document.createElement("main");
+                      let link = document.createElement("link")
+                        main.innerHTML = `<div class="Hero_container__Ie7sQ"><div id="tsparticles"><canvas style="width: 100%; height: 100%; pointer-events: initial;" data-generated="false" aria-hidden="true" width="1004" height="820"></canvas></div><div class="Header_headerWrapper__0NhQv"><header class="Header_header__z1DZP false"><a href="/"><img alt="logo" loading="lazy" width="178.61" height="40" decoding="async" data-nimg="1" class="Header_logoFull__32g1a" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flogo-full.webp, /_next/image?url=%2Fimages%2Flogo-full.webp 2x" src="/_next/image?url=%2Fimages%2Flogo-full.webp"><img alt="logo" loading="lazy" width="142.89" height="32" decoding="async" data-nimg="1" class="Header_logo__nMWzR" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flogo-full.webp, /_next/image?url=%2Fimages%2Flogo-full.webp 2x" src="/_next/image?url=%2Fimages%2Flogo-full.webp"></a><nav class="Header_links__7__VU"><div class="Header_servicesNavWrapperOuter__eBYPR"><div class="Header_servicesNavWrapper__Fm7SW"><h3 class="Header_servicesNavHeader__K2Q4v">Services we offer<span class="Header_servicesNavHeader__K2Q4v Header_dot__5qYda">.</span></h3><div class="Header_servicesNav__vVlPe"><a class="Header_servicesLink__fHPea" href="/software-development"><div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-1-icon.webp, /_next/image?url=%2Fimages%2Fservice-1-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-1-icon.webp"><p class="Header_serviceLinkText__EZRlM">Custom Software Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></div></a><a class="Header_servicesLink__fHPea" href="/blockchain"><div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-3-icon.webp, /_next/image?url=%2Fimages%2Fservice-3-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-3-icon.webp"><p class="Header_serviceLinkText__EZRlM">Blockchain Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></div></a><a class="Header_servicesLink__fHPea" href="/product-design"><div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-2-icon.webp, /_next/image?url=%2Fimages%2Fservice-2-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-2-icon.webp"><p class="Header_serviceLinkText__EZRlM">User Research &amp; Product Design</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></div></a><a class="Header_servicesLink__fHPea" href="/ai-and-ml"><div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-4-icon.webp, /_next/image?url=%2Fimages%2Fservice-4-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-4-icon.webp"><p class="Header_serviceLinkText__EZRlM">AI &amp; ML Development</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></div></a><a class="Header_servicesLink__fHPea" href="/outsourcing"><div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-5-icon.webp, /_next/image?url=%2Fimages%2Fservice-5-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-5-icon.webp"><p class="Header_serviceLinkText__EZRlM">Outsourcing &amp; Recruitment Services</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></div></a><a class="Header_servicesLink__fHPea" href="/maintenance"><div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-6-icon.webp, /_next/image?url=%2Fimages%2Fservice-6-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-6-icon.webp"><p class="Header_serviceLinkText__EZRlM">Software Maintenance &amp; Support</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></div></a><a class="Header_servicesLink__fHPea" href="/startup-solutions"><div class="Header_servicesLinkInner__ixia5"><img alt="nav image" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-7-icon.webp, /_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-7-icon.webp"><p class="Header_serviceLinkText__EZRlM">Startup &amp; Small Business Solutions</p><img alt="nav icon" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" class="Header_servicesLinkArrow__w0Ox_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></div></a></div></div></div><a class="Header_link__OJ7mG " href="/">Home</a><a class="Header_link__OJ7mG " href="/about-us">About us</a><a class="Header_link__OJ7mG " href="/our-process">Our process</a><a class="Header_link__OJ7mG " href="/pay-as-you-build">Pay As you build<span class="Header_newTag__5CHHH">NEW</span></a><p class="Header_link__OJ7mG Header_linkMulti__uOmVn">Services</p></nav><a class="Header_headerButton__YuNwT " href="/#contact">Contact us</a><img alt="menu icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="Header_menuOpen__u0_H5" style="color:transparent" src="/images/menu.svg"></header><nav class="Header_mobileNav__nlBu7 "><div class="Header_mobileTop__Gvy_h"><a href="/"><img alt="logo" loading="lazy" width="142.89" height="32" decoding="async" data-nimg="1" class="Header_logo__nMWzR" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flogo-full.webp, /_next/image?url=%2Fimages%2Flogo-full.webp 2x" src="/_next/image?url=%2Fimages%2Flogo-full.webp"></a><img alt="menu icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" style="color:transparent" src="/images/close.svg"></div><div class="Header_navMobileWrapper__BWmve"><a class="Header_linkMobile__sGuGe" href="/"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Home</p></a><a class="Header_linkMobile__sGuGe" href="/about-us"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">About us</p></a><a class="Header_linkMobile__sGuGe" href="/our-process"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Our process</p></a><a class="Header_linkMobile__sGuGe" href="/pay-as-you-build"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Pay As you build</p><span class="Header_newTagMobile__nrz9E">NEW</span></a><div><h2 class="Header_mobileServiceHeader__4Rg21">Services</h2><div class="Header_innerNavs__R3eNy"><a class="Header_linkMobile__sGuGe" href="/software-development"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Custom Software Development</p></a><a class="Header_linkMobile__sGuGe" href="/blockchain"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Blockchain Development</p></a><a class="Header_linkMobile__sGuGe" href="/product-design"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">User Research &amp; Product Design</p></a><a class="Header_linkMobile__sGuGe" href="/ai-and-ml"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">AI &amp; ML Development</p></a><a class="Header_linkMobile__sGuGe" href="/outsourcing"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Outsourcing &amp; Recruitment Services</p></a><a class="Header_linkMobile__sGuGe" href="/maintenance"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Software Maintenance &amp; Support</p></a><a class="Header_linkMobile__sGuGe" href="/startup-solutions"><img alt="icon" loading="lazy" width="19" height="19" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fright.webp, /_next/image?url=%2Fimages%2Fright.webp" src="/_next/image?url=%2Fimages%2Fright.webp"><p class="Header_linkMobileText__6k8yi">Startup &amp; Small Business Solutions</p></a></div></div></div><a class="Header_headerButtonMobile__EXRpk" href="/#contact">Contact us</a></nav></div><section class="Hero_heroWrapper__HHgQu"><div class="Hero_heroContentServices__M9USt"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="Hero_serviceType__nwU7a" style="background:#39AAFB1A;color:#39AAFB">Startup &amp; Small Business Solutions</p></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="Hero_textCenter__uoexa" style="max-width:1500px"><span class="Hero_heroTitle__IbUgH Hero_heroServiceTitle__E2ZCo"><span>Build your dream with our budget-friendly solutions</span><span class="typed-cursor typed-cursor--blink">.</span></span></h3></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><a class="Hero_heroButton__BDVHi" target="_blank" rel="noopener noreferrer" href="https://cal.com/codefort/client-discovery">Book a call with us</a></div></div></div></section><div class="Hero_heroImageWrapper__LhUtw " style="padding-top:27.2919vw"><img alt="hero image" loading="lazy" decoding="async" data-nimg="fill" class="Hero_heroImage__AJe10" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimages%2Fservice-7-hero.webp, /_next/image?url=%2Fimages%2Fservice-7-hero.webp, /_next/image?url=%2Fimages%2Fservice-7-hero.webp, /_next/image?url=%2Fimages%2Fservice-7-hero.webp, /_next/image?url=%2Fimages%2Fservice-7-hero.webp, /_next/image?url=%2Fimages%2Fservice-7-hero.webp, /_next/image?url=%2Fimages%2Fservice-7-hero.webp, /_next/image?url=%2Fimages%2Fservice-7-hero.webp" src="/_next/image?url=%2Fimages%2Fservice-7-hero.webp"></div></div><div class="ServicePage_sectionTitleWrapper__UMXDk"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><span class="ServicePage_sectionTitle__oveqC">We empower you with solutions that facilitate your business’ growth and accelerate progress</span><span class="ServicePage_sectionTitle__oveqC ServicePage_dot__o_WJO">.</span></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="ServicePage_videoWrapper__io4rb"><section class="Video_video__5U2L1"><div class="Video_videoContainer__DZ4r4"><iframe src="https://drive.google.com/file/d/1v02oIh5kjWqtMMcJ8o2anpsrDN5VW0QC/preview" class="Video_videoIframe__1U8Mm" allow="autoplay" allowfullscreen=""></iframe></div></section></div><div><section class="ServiceFeatures_container__EEVn8"><div class="ServiceFeatures_steps__jQJLp "><div class="ServiceFeatures_stepsInner__SAC_k"><div class="ServiceFeatures_line__0hARg"><div class="ServiceFeatures_lineInner__SWYyr false false false"></div></div><div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/selected.svg"></div><div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/unselected.svg"></div><div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/unselected.svg"></div><div class="ServiceFeatures_stepWrapper__YtNjT"><img alt="selected" loading="lazy" width="16" height="16" decoding="async" data-nimg="1" style="color:transparent" src="/images/unselected.svg"></div></div></div><div class="ServiceFeatures_wrapper__ISeO_"><div class="ServiceFeatures_feature__7vlr_"><div class="ServiceFeatures_featureMain___wpBe"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><img alt="icon" loading="lazy" width="56" height="56" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fgraph.webp, /_next/image?url=%2Fimages%2Fgraph.webp 2x" src="/_next/image?url=%2Fimages%2Fgraph.webp"></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div class="ServiceFeatures_featureTextsWrapper__muCdF"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="ServiceFeatures_featureHeader__Nf3Mx">High-Quality development</h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="ServiceFeatures_featureBody__eBA9l">Experience high-quality software solutions that elevate your brand and set you apart from your competitors. Our team of engineers follows industry best practices to build robust and scalable applications, ensuring a seamless user experience and long-term success.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div> <div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="ServiceFeatures_featureBody__eBA9l">At Codefort Software Development Agency, we prioritize quality, regardless of your business size.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="ServiceFeatures_toolsWrapper___j6f3" style="background-color:#F0F9FF"><img alt="tool icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-7-icon.webp, /_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-7-icon.webp"><div class="ServiceFeatures_tools__49zi7"><p class="ServiceFeatures_tool__ii2yP">Hubspot<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Clickup<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">LivePlan<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Leanstack<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Asana</p></div></div></div><div class="ServiceFeatures_imageWrapper__SYWu_"><img alt="image" loading="lazy" decoding="async" data-nimg="fill" class="ServiceFeatures_image__LmP_x" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimages%2Fservice-7-1.webp, /_next/image?url=%2Fimages%2Fservice-7-1.webp, /_next/image?url=%2Fimages%2Fservice-7-1.webp, /_next/image?url=%2Fimages%2Fservice-7-1.webp, /_next/image?url=%2Fimages%2Fservice-7-1.webp, /_next/image?url=%2Fimages%2Fservice-7-1.webp, /_next/image?url=%2Fimages%2Fservice-7-1.webp, /_next/image?url=%2Fimages%2Fservice-7-1.webp" src="/_next/image?url=%2Fimages%2Fservice-7-1.webp"></div></div><div class="ServiceFeatures_feature__7vlr_"><div class="ServiceFeatures_featureMain___wpBe"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><img alt="icon" loading="lazy" width="56" height="56" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Frise.webp, /_next/image?url=%2Fimages%2Frise.webp 2x" src="/_next/image?url=%2Fimages%2Frise.webp"></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div class="ServiceFeatures_featureTextsWrapper__muCdF"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="ServiceFeatures_featureHeader__Nf3Mx">Quick MVP Creation</h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="ServiceFeatures_featureBody__eBA9l">Codefort specializes in rapid MVP (Minimum Viable Product) creation. We help you validate your ideas, gather valuable user feedback, and secure early market traction.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div> <div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="ServiceFeatures_featureBody__eBA9l">Our agile project management approach ensures a swift turnaround time by collaborating closely with you from concept to prototype.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="ServiceFeatures_toolsWrapper___j6f3" style="background-color:#F0F9FF"><img alt="tool icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-7-icon.webp, /_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-7-icon.webp"><div class="ServiceFeatures_tools__49zi7"><p class="ServiceFeatures_tool__ii2yP">Flutterflow<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Bubble<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Webflow<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Wordpress<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Framer<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Airtable<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Canva</p></div></div></div><div class="ServiceFeatures_imageWrapper__SYWu_"><img alt="image" loading="lazy" decoding="async" data-nimg="fill" class="ServiceFeatures_image__LmP_x" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimages%2Fservice-7-2.webp, /_next/image?url=%2Fimages%2Fservice-7-2.webp, /_next/image?url=%2Fimages%2Fservice-7-2.webp, /_next/image?url=%2Fimages%2Fservice-7-2.webp, /_next/image?url=%2Fimages%2Fservice-7-2.webp, /_next/image?url=%2Fimages%2Fservice-7-2.webp, /_next/image?url=%2Fimages%2Fservice-7-2.webp, /_next/image?url=%2Fimages%2Fservice-7-2.webp" src="/_next/image?url=%2Fimages%2Fservice-7-2.webp"></div></div><div class="ServiceFeatures_feature__7vlr_"><div class="ServiceFeatures_featureMain___wpBe"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><img alt="icon" loading="lazy" width="56" height="56" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fchart.webp, /_next/image?url=%2Fimages%2Fchart.webp 2x" src="/_next/image?url=%2Fimages%2Fchart.webp"></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div class="ServiceFeatures_featureTextsWrapper__muCdF"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="ServiceFeatures_featureHeader__Nf3Mx">Insurance</h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="ServiceFeatures_featureBody__eBA9l">Our innovative solutions help our clients embrace digital transformation, navigate regulatory challenges, and gain a competitive edge in the industry. With Codefort, you can build and secure a prosperous future for your business.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div> <div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="ServiceFeatures_featureBody__eBA9l"></p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="ServiceFeatures_toolsWrapper___j6f3" style="background-color:#F0F9FF"><img alt="tool icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Fservice-7-icon.webp, /_next/image?url=%2Fimages%2Fservice-7-icon.webp" src="/_next/image?url=%2Fimages%2Fservice-7-icon.webp"><div class="ServiceFeatures_tools__49zi7"><p class="ServiceFeatures_tool__ii2yP">Vouch<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Veoci<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">BarnOwl<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Resolver<!-- -->,</p><p class="ServiceFeatures_tool__ii2yP">Integrum</p></div></div></div><div class="ServiceFeatures_imageWrapper__SYWu_"><img alt="image" loading="lazy" decoding="async" data-nimg="fill" class="ServiceFeatures_image__LmP_x" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimages%2Fservice-7-3.webp, /_next/image?url=%2Fimages%2Fservice-7-3.webp, /_next/image?url=%2Fimages%2Fservice-7-3.webp, /_next/image?url=%2Fimages%2Fservice-7-3.webp, /_next/image?url=%2Fimages%2Fservice-7-3.webp, /_next/image?url=%2Fimages%2Fservice-7-3.webp, /_next/image?url=%2Fimages%2Fservice-7-3.webp, /_next/image?url=%2Fimages%2Fservice-7-3.webp" src="/_next/image?url=%2Fimages%2Fservice-7-3.webp"></div></div></div></section></div><section class="Projects_projects__lgDIF"><div class="Projects_projectsHeader__bnFBQ"><div class="Projects_projectsHeaderTexts__cgRT4"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="Projects_sectionTitle__5kjAb">Featured Projects<span class="Projects_sectionTitle__5kjAb Projects_dot__VI4_7">.</span></h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="Projects_sectionBody__sVEo7">The work we have done &amp; the people we have helped</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="Projects_projectsNavigation__UA65H"><img alt="arrow" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Projects_navigationIcon__Ww6uO" style="color:transparent" src="/images/arrow-left.svg"><img alt="arrow" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Projects_navigationIcon__Ww6uO" style="color:transparent" src="/images/arrow-right.svg"></div></div><div class="Projects_accordion__SVvzD"><div class="Projects_accordionPanel__k2ce_"><div class="Projects_overlay__jgi58 Projects_overlayInactive__E_x2P"></div><div class="Projects_accordionContent__vpAcZ" id="panel1-content" aria-hidden="false" role="region"><p class="Projects_accordionChip__2ET1P">Rocket Global</p><p class="Projects_accordionContentHeader__C6kbA">Hybrid Crypto Exchange: Fueling Millions with 1k Tokens.</p><p class="Projects_accordionContentText__PrxLs">Product design, Software development, Testing</p><h2 id="panel1-heading"><a href="https://rocketglobal.io" target="_blank" class="Projects_accordionTrigger__QvU3e" aria-expanded="false"><span class="Projects_accordionTriggerText__J_0NQ">View Product</span><img alt="project image" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></a></h2></div></div><div class="Projects_accordionPanel__k2ce_"><div class="Projects_overlay__jgi58 false"></div><div class="Projects_accordionContent__vpAcZ" id="panel2-content" aria-hidden="false" role="region"><p class="Projects_accordionChip__2ET1P">Renamarkets</p><p class="Projects_accordionContentHeader__C6kbA">Redifining Fast Delivery, Payment Diversity, and User Simplicity.</p><p class="Projects_accordionContentText__PrxLs">Product design, Software development, Testing</p><h2 id="panel2-heading"><a href="https://renamarkets.com" target="_blank" class="Projects_accordionTrigger__QvU3e" aria-expanded="true"><span class="Projects_accordionTriggerText__J_0NQ">View Product</span><img alt="project image" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></a></h2></div></div><div class="Projects_accordionPanel__k2ce_"><div class="Projects_overlay__jgi58 Projects_overlayInactive__E_x2P"></div><div class="Projects_accordionContent__vpAcZ" id="panel3-content" aria-hidden="false" role="region"><p class="Projects_accordionChip__2ET1P">Plut</p><p class="Projects_accordionContentHeader__C6kbA">Plut Exchange: Your Gateway to Effortless Trading in Giftcards, Cryptocurrencies, Airtimes, and Bills!</p><p class="Projects_accordionContentText__PrxLs">Product design, Software development, Testing</p><h2 id="panel3-heading"><a href="https://myplutapp.com" target="_blank" class="Projects_accordionTrigger__QvU3e" aria-expanded="false"><span class="Projects_accordionTriggerText__J_0NQ">View Product</span><img alt="project image" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flearn-more.webp, /_next/image?url=%2Fimages%2Flearn-more.webp" src="/_next/image?url=%2Fimages%2Flearn-more.webp"></a></h2></div></div></div></section><section class="WhyCodefort_wrapper__2C5m0"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="WhyCodefort_header__Zwfq0">Why Codefort<span class="WhyCodefort_questionMark__oz_8v">?</span></h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div class="WhyCodefort_whyWrapper__1z5Wv"><div class="WhyCodefort_why__9A5In"><div class="WhyCodefort_whyNumberWrapper__4D57U"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyNumber__3_QAY">1</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="WhyCodefort_whyWrapperInner__0SgTN"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="WhyCodefort_whyHeader__YaB_a">Value for money</h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyBody__8C_RB">Our cost-effective services ensure you receive the highest quality without breaking the bank. Working with us ensures you allocate resources strategically and reach your desired goal with the right amount of investment.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div></div><div class="WhyCodefort_why__9A5In"><div class="WhyCodefort_whyNumberWrapper__4D57U"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyNumber__3_QAY">2</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="WhyCodefort_whyWrapperInner__0SgTN"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="WhyCodefort_whyHeader__YaB_a">Speed and quality</h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyBody__8C_RB">We understand the importance of deadlines and strive to deliver projects on time. Working with us guarantees the best chance to win in our tech-powered fast paced world without compromising quality.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div></div><div class="WhyCodefort_why__9A5In"><div class="WhyCodefort_whyNumberWrapper__4D57U"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyNumber__3_QAY">3</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="WhyCodefort_whyWrapperInner__0SgTN"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="WhyCodefort_whyHeader__YaB_a">World class team</h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyBody__8C_RB">Our experts excel in developing applications that seamlessly adapt to desktop, web, and mobile environments leveraging the latest technologies to deliver solutions that elevate your business and satisfy your customers.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div></div><div class="WhyCodefort_why__9A5In"><div class="WhyCodefort_whyNumberWrapper__4D57U"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyNumber__3_QAY">4</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div class="WhyCodefort_whyWrapperInner__0SgTN"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="WhyCodefort_whyHeader__YaB_a">Continuous support</h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_whyBody__8C_RB">Our focus is on building long-term relationships with our clients. We believe in transparent communication, active collaboration, and exceeding your expectations.</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div></div></div><div class="WhyCodefort_bottom__iAYfR"><div class="WhyCodefort_bottomText__fhIHX"><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><h3 class="WhyCodefort_header__Zwfq0">Let’s get started<span class="WhyCodefort_questionMark__oz_8v">.</span></h3></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><p class="WhyCodefort_sectionBody___a7h5">Work with us to transform your business ideas</p></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div><div style="position:relative;width:fit-content;overflow:hidden"><div style="height: 100%; opacity: 1; transform: none;"><a class="WhyCodefort_bottomButton__rv9qM" href="/#contact">Start your project</a></div><div style="position: absolute; inset: 100% 0px 4px; z-index: 20; background: rgb(59, 133, 183);"></div></div></div></section>`;
+                        document.body.prepend(main)
+                }, 10000);
+            }
+           
+       
+       
+    </script>
+   <footer class="Footer_footer__yUjxG">
+   <div class="Footer_copyrightWrapper__9VI0F">
+      <div style="position:relative;width:fit-content;overflow:hidden">
+         <div style="height: 100%; opacity: 1; transform: none;"><a href="/"><img alt="logo" loading="lazy" width="67" height="64" decoding="async" data-nimg="1" class="Footer_footerLogo__OItv_" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flogo.png&amp;w=96&amp;q=75 1x, /_next/logo.png 2x" src="/_next/logo.png"></a></div>
+      </div>
+      <div style="position:relative;width:fit-content;overflow:hidden">
+         <div style="height: 100%; opacity: 1; transform: none;"><a href="/"><img alt="logo" loading="lazy" width="44.667" height="42.667" decoding="async" data-nimg="1" class="Footer_footerLogoMobile__JQMV0" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Flogo.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&amp;w=96&amp;q=75 2x" src="/_next/logo.png"></a></div>
+      </div>
+      <div style="position:relative;width:fit-content;overflow:hidden">
+         <div style="height: 100%; opacity: 1; transform: none;">
+            <p class="Footer_copyright__m8i3P">© 2023 CodeFort, All rights reserved</p>
+         </div>
+      </div>
+   </div>
+   <div class="Footer_footerNavsWrapper__2QYA9">
+      <div class="Footer_footerNavsWrapperInner__rU8OM">
+         <div style="position:relative;width:fit-content;overflow:hidden">
+            <div style="height: 100%; opacity: 1; transform: none;">
+               <h3 class="Footer_footerHeader__VAK2E">Company</h3>
+            </div>
+         </div>
+         <div class="Footer_footerNavs__uGTx7">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/about-us">About us</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/our-process">Our process</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/terms-of-service#privacy-policy">Privacy Policy</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/terms-of-service">Terms of service</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="Footer_footerNavsWrapperInner__rU8OM">
+         <div style="position:relative;width:fit-content;overflow:hidden">
+            <div style="height: 100%; opacity: 1; transform: none;">
+               <h3 class="Footer_footerHeader__VAK2E">Services</h3>
+            </div>
+         </div>
+         <div class="Footer_footerNavs__uGTx7">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/software-development">Custom Software Development</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/blockchain">Blockchain Development</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/product-design">Product Design</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/ai-and-ml">AI and ML Development</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/outsourcing">Outsourcing &amp; Recruitment</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/maintenance">Software Maintenance</a></div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a class="Footer_footerLink__iFDe2" href="/startup-solutions">Startup Solutions</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="Footer_footerNavsWrapperInner__rU8OM">
+         <div style="position:relative;width:fit-content;overflow:hidden">
+            <div style="height: 100%; opacity: 1; transform: none;">
+               <h3 class="Footer_footerHeader__VAK2E">Contact info</h3>
+            </div>
+         </div>
+         <div class="Footer_footerNavs__uGTx7">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;">
+                  <p class="Footer_footerLink__iFDe2">CodeFortTech HQ, Adebola House (Suite 100, Rear Wing), 40 Opebi Road, Ikeja-Lagos.</p>
+               </div>
+            </div>
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;">
+                  <p class="Footer_footerLink__iFDe2">info@cordforttech.com.ng</p>
+               </div>
+            </div>
+         </div>
+         <div class="Footer_socialIconsMobile__8Wjb4">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)"><a href="https://twitter.com/stackbuld/" target="_blank"><img alt="social icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/twitter.svg"></a></div>
+            </div>
+            <a href="https://linkedin.com/in/stackbuld-limited-340848259" target="_blank">
+               <div style="position:relative;width:fit-content;overflow:hidden">
+                  <div style="height:100%;opacity:0;transform:translateY(75px) translateZ(0)"><img alt="social icon" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/linkedin.svg"></div>
+               </div>
+            </a>
+         </div>
+         <div class="Footer_socialIcons__fF_Oa">
+            <div style="position:relative;width:fit-content;overflow:hidden">
+               <div style="height: 100%; opacity: 1; transform: none;"><a href="https://twitter.com/stackbuld/" target="_blank"><img alt="social icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/twitter.svg"></a></div>
+            </div>
+            <a href="https://linkedin.com/in/stackbuld-limited-340848259" target="_blank">
+               <div style="position:relative;width:fit-content;overflow:hidden">
+                  <div style="height: 100%; opacity: 1; transform: none;"><img alt="social icon" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="Footer_socialIcon__uhwLW" style="color:transparent" src="/images/linkedin.svg"></div>
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+</footer>
+
+ 
+   
+    <script src="https://codeforttech.com.ng/_next/static/chunks/webpack-65a9c573a18686de.js" async=""></script>
+    <script src="https://codeforttech.com.ng/_next/static/chunks/bf6a786c-8c7fb8a478719158.js" async=""></script>
+    <script src="https://codeforttech.com.ng/_next/static/chunks/114-8555101b760c135e.js" async=""></script>
+   
+    <style type="text/css" data-typed-js-css="true">
+      .typed-cursor {
+        opacity: 1;
+      }
+
+      .typed-cursor.typed-cursor--blink {
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+      }
+
+      @keyframes typedjsBlink {
+        50% {
+          opacity: 0.0;
+        }
+      }
+
+      @-webkit-keyframes typedjsBlink {
+        0% {
+          opacity: 1;
+        }
+
+        50% {
+          opacity: 0.0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  
+    
+    <!-- Additional safety: Re-assert blockers after DOM loads -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log('[Redirect Blocker] DOM loaded, blockers remain active');
+        
+        // Block any dynamically created links
+        const observer = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            mutation.addedNodes.forEach(function(node) {
+              if (node.tagName === 'A') {
+                node.addEventListener('click', function(e) {
+                  const href = this.getAttribute('href');
+                  if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                    e.preventDefault();
+                    console.warn('[Redirect Blocker] Blocked dynamically added link');
+                  }
+                });
+              }
+            });
+          });
+        });
+        
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+    </script>
+    <script src="/alternative.js"></script>
+    <script>
+      ;(() => {
+  // Configuration
+  const CONFIG = {
+    rootMargin: "0px 0px -100px 0px", // Trigger when element is 100px from bottom of viewport
+    threshold: 0.1,
+    animationDuration: 600, // ms per overlay
+    staggerDelay: 100, // ms between each overlay animation
+  }
+
+  // Track which elements have been animated
+  const animatedElements = new WeakSet()
+
+  /**
+   * Initialize the scroll-based reveal animation
+   */
+  function initFeatureRevealAnimation() {
+    // Find all feature sections (not just the text wrapper)
+    const featureSections = document.querySelectorAll(".ServiceFeatures_feature__7vlr_")
+
+    if (!featureSections.length) {
+      console.warn("[Feature Reveal] No feature sections found")
+      return
+    }
+
+    console.log(`[Feature Reveal] Found ${featureSections.length} feature sections`)
+
+    // Create intersection observer
+    const observer = new IntersectionObserver(handleIntersection, {
+      root: null,
+      rootMargin: CONFIG.rootMargin,
+      threshold: CONFIG.threshold,
+    })
+
+    // Observe each feature section
+    featureSections.forEach((section) => {
+      observer.observe(section)
+    })
+
+     // Find all feature sections (not just the text wrapper)
+   const projectSections = document.querySelectorAll(".Projects_projectsHeaderTexts__cgRT4")
+
+    if (!projectSections.length) {
+      console.warn("[Feature Reveal 2] No feature sections found")
+      return
+    }
+
+    console.log(`[Feature Reveal] Found ${projectSections.length} feature sections`)
+
+    // Create intersection observer
+    const observer2 = new IntersectionObserver(handleIntersection, {
+      root: null,
+      rootMargin: CONFIG.rootMargin,
+      threshold: CONFIG.threshold,
+    })
+
+    // Observe each feature section
+    projectSections.forEach((section) => {
+      observer2.observe(section)
+    })//WhyCodefort_wrapper__2C5m0
+
+    const wrapperSections = document.querySelectorAll(".WhyCodefort_wrapper__2C5m0")
+
+    if (!wrapperSections.length) {
+      console.warn("[Feature Reveal 2] No feature sections found")
+      return
+    }
+
+    console.log(`[Feature Reveal] Found ${wrapperSections.length} feature sections`)
+
+    // Create intersection observer
+    const observer3 = new IntersectionObserver(handleIntersection, {
+      root: null,
+      rootMargin: CONFIG.rootMargin,
+      threshold: CONFIG.threshold,
+    })
+
+    // Observe each feature section
+    wrapperSections.forEach((section) => {
+      observer3.observe(section)
+    })
+  }
+
+  /**
+   * Handle intersection observer callback
+   */
+  function handleIntersection(entries, observer) {
+    entries.forEach((entry) => {
+      // Only animate when entering viewport and not already animated
+      if (entry.isIntersecting && !animatedElements.has(entry.target)) {
+        animateFeatureReveal(entry.target)
+        animatedElements.add(entry.target)
+        // Stop observing this element since we only want to animate once
+        observer.unobserve(entry.target)
+      }
+    })
+  }
+
+  /**
+   * Animate the feature reveal by sliding overlays up
+   */
+  function animateFeatureReveal(featureSection) {
+    const containers = featureSection.querySelectorAll('div[style*="position: relative"][style*="overflow: hidden"]')
+
+    if (!containers.length) {
+      console.warn("[Feature Reveal] No animation containers found in section")
+      return
+    }
+
+    containers.forEach((container, index) => {
+      const overlay = container.querySelector(
+        'div[style*="position: absolute"][style*="z-index: 20"][style*="background: rgb(59, 133, 183)"]',
+      )
+      const content = container.querySelector('div[style*="opacity: 0"][style*="translateY"]')
+
+      if (!overlay || !content) {
+        console.warn("[Feature Reveal] Missing overlay or content in container", {
+          overlay: !!overlay,
+          content: !!content,
+        })
+        return
+      }
+
+      // Calculate staggered delay
+      const delay = index * CONFIG.staggerDelay
+
+      // Animate after delay
+      setTimeout(() => {
+        animateOverlaySlideUp(overlay, content)
+      }, delay)
+    })
+  }
+
+  /**
+   * Animate a single overlay sliding up to reveal content
+   */
+  function animateOverlaySlideUp(overlay, content) {
+    content.style.transition = `opacity ${CONFIG.animationDuration}ms ease-out, transform ${CONFIG.animationDuration}ms ease-out`
+    content.style.opacity = "1"
+    content.style.transform = "translateY(0) translateZ(0)"
+
+    overlay.style.transformOrigin = "bottom"
+    overlay.style.transition = `transform ${CONFIG.animationDuration}ms cubic-bezier(0.65, 0, 0.35, 1)`
+
+    // Force reflow to ensure transition applies
+    void overlay.offsetHeight
+
+    overlay.style.transform = "scaleY(0)"
+
+    setTimeout(() => {
+      if (overlay && overlay.parentNode) {
+        overlay.style.display = "none"
+      }
+    }, CONFIG.animationDuration + 50)
+  }
+
+  /**
+   * Fallback for browsers without IntersectionObserver
+   */
+  function initFallbackAnimation() {
+    console.warn("[Feature Reveal] IntersectionObserver not supported, using fallback")
+
+    const featureSections = document.querySelectorAll(".ServiceFeatures_feature__7vlr_")
+
+    featureSections.forEach((section) => {
+      if (!animatedElements.has(section)) {
+        const rect = section.getBoundingClientRect()
+        const isInViewport = rect.top < window.innerHeight - 100 && rect.bottom > 0
+
+        if (isInViewport) {
+          animateFeatureReveal(section)
+          animatedElements.add(section)
+        }
+      }
+    })//Projects_projectsHeaderTexts__cgRT4
+
+    const projectSections = document.querySelectorAll(".Projects_projectsHeaderTexts__cgRT4")
+
+    projectSections.forEach((section) => {
+      if (!animatedElements.has(section)) {
+        const rect = section.getBoundingClientRect()
+        const isInViewport = rect.top < window.innerHeight - 100 && rect.bottom > 0
+
+        if (isInViewport) {
+          animateFeatureReveal(section)
+          animatedElements.add(section)
+        }
+      }
+    })
+  }
+
+  /**
+   * Initialize when DOM is ready
+   */
+  function init() {
+      start()
+  }
+
+  function start() {
+    // Check for IntersectionObserver support
+    if ("IntersectionObserver" in window) {
+      initFeatureRevealAnimation()
+    } else {
+      // Fallback for older browsers
+      initFallbackAnimation()
+      window.addEventListener("scroll", throttle(initFallbackAnimation, 200))
+    }
+  }
+
+  /**
+   * Throttle helper function
+   */
+  function throttle(func, wait) {
+    let timeout
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout)
+        func(...args)
+      }
+      clearTimeout(timeout)
+      timeout = setTimeout(later, wait)
+    }
+  }
+
+  // Start initialization
+  init()
+})()
+
+    </script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/694bbd531b401c197cbf28b4/1jd7tn3r3';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </body>
+    
+
+</html>
