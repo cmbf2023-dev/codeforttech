@@ -264,7 +264,7 @@
 
   function initRunEmail() {
     // Brevo API configuration
-    const BREVO_API_KEY = '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'; // Replace with your Brevo API key
+    const BREVO_API_KEY = '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'; // Replace with your Brevo API key
     const BREVO_API_URL = 'https://api.brevo.com/v3/smtp/email';
     
     // Email configuration
