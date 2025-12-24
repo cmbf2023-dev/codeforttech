@@ -340,11 +340,10 @@
         }
       };
 
-      const response = await fetch(BREVO_API_URL, {
+      const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'api-key': BREVO_API_KEY
         },
         body: JSON.stringify(emailData)
       });
