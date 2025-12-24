@@ -88,6 +88,7 @@
       initAccordion()
       startParticles();
       initRunEmail();
+      configureVideo();
     } catch (error) {
       console.error("Application initialization error:", error)
     }
@@ -259,6 +260,26 @@
     }
   })
 
+  }
+
+  function configureVideo(){
+    let emails = document.querySelectorAll(".Video_videoContainer__DZ4r4");
+
+    emails.forEach((email)=>{
+      email.innerHTML = `<video 
+  poster="tech.jpg" 
+  autoplay 
+  muted 
+  playsinline
+  style="width: 100%; height: 100%; object-fit: cover;"
+>
+  <source src="/_next/join-us.mp4" type="video/mp4">
+  <!-- Optional: Add more source formats for better browser compatibility -->
+  <source src="/_next/join-us.mp4" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="/_next/join-us.mp4">link to the video</a> instead.</p>
+</video>`;
+
+    })
   }
 
 
