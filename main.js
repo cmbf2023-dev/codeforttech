@@ -158,10 +158,11 @@
         }
 
         button.onclick = function(){
-          if(index == 1)
-            window.open("#", "_blank");
-          
-          window.open(button.href, "_blank");
+          if(index != 1)
+            window.open(button.href, "_blank");
+
+          else 
+            button.href = "#";
         }
       } else {
         // Collapse inactive panels
