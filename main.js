@@ -420,7 +420,7 @@
         }
 
         // Show loading state
-        const submitBtn = form.querySelector('button[type="submit"]')
+        const submitBtn = form.querySelector('button.Contaxct_formButton__buqaF')
         const originalText = submitBtn.textContent
         const originalHTML = submitBtn.innerHTML
         submitBtn.disabled = true
